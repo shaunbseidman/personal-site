@@ -1,7 +1,11 @@
 <template>
-  <div class="animated fadeIn" id="who">
-    <p>Lorem ipsum dolor sit amet, mel iriure temporibus contentiones te, congue convenire usu at. Dicat pertinax at per, decore repudiandae pro ut. Eam dicat commodo vituperatoribus eu, vix nibh tota id, probo dictas vim te. Sea ad lorem discere intellegam, graece erroribus an nec. Ei eam propriae reprehendunt, cu pro esse dictas doctus, nec oratio abhorreant ex.
-</p>
+  <div id="who">
+    <img class='backgroundImg' src="../assets/dog.jpeg" alt="">
+    <div class="animated fadeIn" id="aboutMe">
+      <p>Lorem ipsum dolor sit amet, mel iriure temporibus contentiones te, congue convenire usu at. Dicat pertinax at per, decore repudiandae pro ut. Eam dicat commodo vituperatoribus eu, vix nibh tota id, probo dictas vim te. Sea ad lorem discere intellegam, graece erroribus an nec. Ei eam propriae reprehendunt, cu pro esse dictas doctus, nec oratio abhorreant ex.
+  </p>
+    </div>
+
   </div>
 </template>
 <script>
@@ -19,9 +23,33 @@ export default {
 }
 </script>
 <style scoped>
+body,
+html {
+  height: 100%;
+  width: 100%;
+
+}
+.backgroundImg {
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+#aboutMe{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 #who{
-  padding: 70px;
-  margin: 10px;
+  position: relative;
+  /* padding: 70px;
+  margin: 10px; */
   /* margin-bottom: 2em; */
   /* padding-bottom: 30px; */
   /* padding: 20px; */

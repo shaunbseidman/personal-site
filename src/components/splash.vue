@@ -16,22 +16,24 @@ export default {
 }
 </script>
 <style scoped >
-body,
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 html {
   height: 100%;
   width: 100%;
 }
 
 img {
+  opacity: 0.5;
   height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: absolute;
 }
 
 .hero-text {
+  font-family: 'Julius Sans One', sans-serif;
   text-align: center;
   position: absolute;
   top: 50%;

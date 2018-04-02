@@ -22,6 +22,7 @@
       </router-link>
     </div>
   </header>
+
   <info></info>
   <section v-show="contactOpen">
     <contact></contact>
@@ -29,7 +30,7 @@
   <section v-show="isOpen">
     <who></who>
   </section>
-  <footerStuff></footerStuff>
+  <!-- <footerStuff></footerStuff> -->
   <router-view/>
 </div>
 </template>
@@ -55,26 +56,16 @@ export default {
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
 #app {
-  /* font-family: 'Lato', Helvetica, Arial, Thin, sans-serif;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   color: #9e9898; */
-  font-family: 'Open Sans', sans-serif;
+   font-family: 'Lato', sans-serif;
 }
 
-/* @import url('https://fonts.googleapis.com/css?family=Varela+Round');
-
- #app {
-   font-family: 'Varela Round', Helvetica, Arial, sans-serif;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   color: #9e9898;
- } */
-
-body {
+body{
   height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .table {
@@ -96,9 +87,12 @@ body {
   float: left;
 }
 
+#menu {
+  float: left;
+  display: block;
+}
 
 #linkImg {
-  font-family: 'Droid Sans', arial, serif;
   float: right;
   text-align: center;
   padding: 16px;
@@ -109,10 +103,11 @@ body {
 
 #linkListItem {
   float: left;
+
   text-align: center;
   padding: 20px;
   display: block;
-  color: white;
+  color: #9e9898;
   text-decoration: none;
 }
 
@@ -130,6 +125,16 @@ img:hover {
   animation: shake 0.5s;
   animation-iteration-count: 1s;
   cursor: pointer;
+}
+
+.backgroundImg {
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
 }
 
 @keyframes shake {
