@@ -1,7 +1,10 @@
 <template>
 <div id="app" class="animated fadeIn">
-  <header class="animated fadeIn">
-    <div class="table">
+  <!-- <header class="animated fadeIn">
+  </header> -->
+
+<section>
+      <div class="table">
       <router-link :to="{name: 'splash'}">
         <img id='logo' src="./assets/SSLogo 2.png" alt="">
       </router-link>
@@ -21,16 +24,8 @@
         <img class='linkImages' src="./assets/mail.png" alt="">
       </router-link>
     </div>
-  </header>
-
+</section>
   <info></info>
-  <section v-show="contactOpen">
-    <contact></contact>
-  </section>
-  <section v-show="isOpen">
-    <who></who>
-  </section>
-  <!-- <footerStuff></footerStuff> -->
   <router-view/>
 </div>
 </template>
@@ -46,9 +41,7 @@ export default {
   },
   data() {
     return {
-      isOpen: false,
-      contactOpen: false,
-      projectOpen: false
+
     }
   },
   methods: {}
@@ -56,10 +49,16 @@ export default {
 </script>
 
 <style scoped>
+header{
+position: absolute;
+
+}
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
 #app {
    font-family: 'Lato', sans-serif;
+   height: 100%;
+   width: 100%;
 }
 
 body{
@@ -67,13 +66,19 @@ body{
   width: 100%;
   position: absolute;
 }
+section{
+  
+  /* list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; */
+}
 
 .table {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* background: linear-gradient( #333333); */
 }
 
 .linkImages {

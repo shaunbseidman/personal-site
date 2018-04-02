@@ -7,6 +7,7 @@ import contact from '@/components/contact'
 import who from '@/components/who'
 import projects from '@/components/projects'
 import splash from '@/components/splash'
+import headShit from '@/components/headShit'
 
 Vue.component('info', info)
 Vue.component('footerStuff', footerStuff)
@@ -14,6 +15,7 @@ Vue.component('contact', contact)
 Vue.component('who', who)
 Vue.component('projects', projects)
 Vue.component('splash', splash)
+Vue.component('headShit', headShit)
 Vue.use(Router)
 
 export default new Router({

@@ -1,5 +1,6 @@
 <template>
 <div class="animated fadeIn" id="splash">
+  <!-- <headShit></headShit> -->
   <img src="../assets/dog.jpeg" alt="">
   <div class="hero-text">
     <h1>Shaun Seidman</h1>
@@ -8,8 +9,13 @@
 </div>
 </template>
 <script>
+import headShit from '@/components/headShit'
+
 export default {
-  name: "",
+  name: "splash",
+  components:{
+    headShit
+  },
   data: () => ({
 
   })
@@ -23,7 +29,7 @@ html {
 }
 
 img {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   height: 100%;
   width: 100%;
   background-position: center;

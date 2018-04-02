@@ -2,8 +2,7 @@
   <div id="contact">
     <img class='backgroundImg' src="../assets/dog.jpeg" alt="">
     <div class="animated fadeIn" id="contactForm">
-
-          <h2>Let's get in touch</h2>
+        <h2>Let's get in touch</h2>
     <form action="mailto:shaunseidman@gmail.com" method="post" enctype="text/plain">
     Name:<br>
     <input type="text" name= "Name: "><br>
