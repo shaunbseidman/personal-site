@@ -23,13 +23,19 @@ export default {
 </script>
 <style scoped >
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+body{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 html {
   height: 100%;
   width: 100%;
 }
 
 img {
-  /* opacity: 0.5; */
+  opacity: 0.3;
   height: 100%;
   width: 100%;
   background-position: center;

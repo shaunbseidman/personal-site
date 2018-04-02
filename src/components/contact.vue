@@ -2,17 +2,18 @@
   <div id="contact">
     <img class='backgroundImg' src="../assets/dog.jpeg" alt="">
     <div class="animated fadeIn" id="contactForm">
-        <h2>Let's get in touch</h2>
-    <form action="mailto:shaunseidman@gmail.com" method="post" enctype="text/plain">
-    Name:<br>
-    <input type="text" name= "Name: "><br>
-    E-mail:<br>
-    <input type="text" name="fart"><br>
-    Comment:<br>
-    <input type="text" name="comment" height= 100 size="50"><br><br>
-    <input type="submit" value="Send">
-    <input type="reset" value="Reset">
-    </form>
+      <h2>Let's get in touch</h2>
+      <form action="https://getsimpleform.com/messages?form_api_token=01178de3065ef85c5dd46493fabaf917" method="post">
+        Name:<br>
+        <input type="text" name= "Name: "><br>
+        E-mail:<br>
+        <input type="text" name="fart"><br>
+        Comment:<br>
+        <input type="text" name="comment" height= 100 size="50"><br><br>
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='http://localhost:8080/#/contact' />
+        <button v-on:click="formSubmitted" type='submit' name="button">Submit</button>
+      </form>
   </div>
 
   </div>
@@ -24,14 +25,25 @@ export default {
     return{
       contactOpen: false
     }
+  },
+  methods:{
+    formSubmitted(){
+      alert('If I programmed this correctly I have hopefully have received your message and will get back to you as quickly as possible.')
+    }
   }
 }
 </script>
 <style  scoped>
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
 body,
 html {
   height: 100%;
   width: 100%;
+}
+h2{
+  font-family: 'Julius Sans One', sans-serif;
+
 }
 .backgroundImg {
    opacity: 0.3;

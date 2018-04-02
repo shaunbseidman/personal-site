@@ -49,12 +49,8 @@ export default {
 </script>
 
 <style scoped>
-header{
-position: absolute;
-
-}
-
 @import url('https://fonts.googleapis.com/css?family=Lato');
+
 #app {
    font-family: 'Lato', sans-serif;
    height: 100%;
@@ -65,13 +61,6 @@ body{
   height: 100%;
   width: 100%;
   position: absolute;
-}
-section{
-
-  /* list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden; */
 }
 
 .table {
@@ -108,7 +97,6 @@ section{
 
 #linkListItem {
   float: left;
-
   text-align: center;
   padding: 20px;
   display: block;

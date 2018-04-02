@@ -6,7 +6,7 @@
     <h3>What's it Worth</h3>
     <img src="../assets/gif2.gif" alt="">
     <div class="tech">
-      <h6>Technologies Used</h6>
+      <h5>Technologies Used</h5>
       <img src="../assets/logo.png" alt="">
       <img src="../assets/css.png" alt="">
       <img src="../assets/post.png" alt="">
@@ -21,7 +21,7 @@
     <h3>fart</h3>
     <img src="../assets/gif2.gif" alt="">
     <div class="tech">
-      <h6>Technologies Used</h6>
+      <p>Technologies Used</p>
       <img src="../assets/logo.png" alt="">
       <img src="../assets/css.png" alt="">
       <img src="../assets/post.png" alt="">
@@ -49,10 +49,16 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
 body,
 html {
   height: 100%;
   width: 100%;
+}
+h3{
+  font-family: 'Julius Sans One', sans-serif;
+
 }
 
 .backgroundImg {
@@ -89,5 +95,7 @@ html {
 
 .tech {
   padding: 15px;
+  font-family: 'Julius Sans One', sans-serif;
+
 }
 </style>
