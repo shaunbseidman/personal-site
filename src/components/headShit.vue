@@ -1,30 +1,36 @@
 <template>
   <div id="headShit">
-          <div class="table">
-            <div class="pageLinks">
-            <router-link :to="{name: 'splash'}">
-            <img id='logo' src="../assets/SSLogo 2.png" alt="">
-          </router-link>
-          <ul id='linkList'>
-            <router-link :to="{name: 'who'}">
-              <li class="animated fadeIn" id='linkListItem'>About Shaun</li>
-            </router-link>
-            <router-link :to="{name: 'projects'}">
-              <li id='linkListItem'>Projects</li>
-            </router-link>
-          </ul>
-        </div>
-      </div>
+    <nav role="navigation">
+<div id="menuToggle">
+<!--
+A fake / hidden checkbox is used as click reciever,
+so you can use the :checked selector on it.
+-->
+<input type="checkbox" />
 
-      <div class="linkImg">
-          <a href="https://www.instagram.com/youth.and.lust"><img class = 'linkImages' id='img2' src="../assets/ig.png" alt=""></a>
-          <a href="https://www.twitter.com/wangchung2nite_"><img class = 'linkImages' id='img2' src="../assets/twitter.png" alt=""></a>
-          <a href="https://www.linkedin.com/in/shaun-seidman/"><img class = 'linkImages' id='img2' src="../assets/linked.png" alt=""></a>
-          <a href="https://www.github.com/shaunbseidman"><img class = 'linkImages' id='img2' src="../assets/git2.png" alt="git"></a>
-          <router-link :to="{name: 'contact'}">
-          <img class='linkImages' src="../assets/mail.png" alt="">
-          </router-link>
-        </div>
+<!--
+Some spans to act as a hamburger.
+
+They are acting like a real hamburger,
+not that McDonalds stuff.
+-->
+<span></span>
+<span></span>
+<span></span>
+
+<!--
+Too bad the menu has to be inside of the button
+but hey, it's pure CSS magic.
+-->
+<ul id="menu">
+  <a href="#"><li>Home</li></a>
+  <a href="#"><li>About</li></a>
+  <a href="#"><li>Info</li></a>
+  <a href="#"><li>Contact</li></a>
+  <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+</ul>
+</div>
+</nav>
   </div>
 </template>
 <script>

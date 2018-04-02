@@ -67,7 +67,7 @@ body{
   position: absolute;
 }
 section{
-  
+
   /* list-style-type: none;
   margin: 0;
   padding: 0;
@@ -124,6 +124,9 @@ li:hover {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   background-color: #575757;
+  animation: shake 0.5s;
+  animation-iteration-count: 1s;
+  cursor: pointer;
 }
 
 img:hover {
