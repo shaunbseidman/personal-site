@@ -1,8 +1,10 @@
 <template>
-
 <div id="app" class="animated fadeIn">
   <header class="animated fadeIn">
     <div class="table">
+      <router-link :to="{name: 'splash'}">
+        <img id='logo' src="./assets/SSLogo 2.png" alt="">
+      </router-link>
       <ul id='linkList'>
         <router-link :to="{name: 'who'}">
           <li class="animated fadeIn" id='linkListItem'>About Shaun</li>
@@ -10,19 +12,14 @@
         <router-link :to="{name: 'projects'}">
           <li id='linkListItem'>Projects</li>
         </router-link>
-        <router-link :to="{name: 'splash'}">
-          <img src="./assets/SSLogo 2.png" alt="">
-        </router-link>
       </ul>
-      <a href="http://www.instagram.com/youth.and.lust"><img id='img2' src="./assets/ig.png" alt=""></a>
-      <a href="http://www.twitter.com/wangchung2nite_"><img id='img2' src="./assets/twitter.png" alt=""></a>
-      <a href="https://www.linkedin.com/in/shaun-seidman/"><img id='img2' src="./assets/linked.png" alt=""></a>
-      <a href="http://www.github.com/shaunbseidman"><img id='img2' src="./assets/git2.png" alt="git"></a>
+      <a href="http://www.instagram.com/youth.and.lust"><img class = 'linkImages' id='img2' src="./assets/ig.png" alt=""></a>
+      <a href="http://www.twitter.com/wangchung2nite_"><img class = 'linkImages' id='img2' src="./assets/twitter.png" alt=""></a>
+      <a href="https://www.linkedin.com/in/shaun-seidman/"><img class = 'linkImages' id='img2' src="./assets/linked.png" alt=""></a>
+      <a href="http://www.github.com/shaunbseidman"><img class = 'linkImages' id='img2' src="./assets/git2.png" alt="git"></a>
       <router-link :to="{name: 'contact'}">
-        <img src="./assets/mail.png" alt="">
-
+        <img class='linkImages' src="./assets/mail.png" alt="">
       </router-link>
-
     </div>
   </header>
   <info></info>
@@ -53,29 +50,20 @@ export default {
       projectOpen: false
     }
   },
-  methods: {
-    toggleWho() {
-      this.isOpen = !this.isOpen
-    },
-    toggleContact() {
-      this.contactOpen = !this.contactOpen
-    },
-    toggleProjects() {
-      this.projectOpen = !this.projectOpen
-    }
-  }
+  methods: {}
 }
 </script>
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
- #app {
-   /* font-family: 'Lato', Helvetica, Arial, Thin, sans-serif;
+#app {
+  /* font-family: 'Lato', Helvetica, Arial, Thin, sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    color: #9e9898; */
-   font-family: 'Open Sans', sans-serif;
- }
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
  #app {
@@ -97,12 +85,17 @@ body {
   /* background: linear-gradient( #333333); */
 }
 
-img {
+.linkImages {
   float: right;
   text-align: center;
   margin-left: 11px;
   display: block;
 }
+
+#logo {
+  float: left;
+}
+
 
 #linkImg {
   font-family: 'Droid Sans', arial, serif;
@@ -126,10 +119,11 @@ img {
 #linkListItem:hover {
   cursor: pointer;
 }
-li:hover{
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    background-color: #575757;
+
+li:hover {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  background-color: #575757;
 }
 
 img:hover {
@@ -137,12 +131,23 @@ img:hover {
   animation-iteration-count: 1s;
   cursor: pointer;
 }
+
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-2px, 0px) rotate(1deg); }
-    30% { transform: translate(1px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-2px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
 
 }
 </style>
