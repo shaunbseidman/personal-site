@@ -39,6 +39,9 @@ html {
   position: relative;
 }
 #aboutMe{
+  margin: 30px;
+  border-radius: 25px;
+  background: rgba(191, 191, 191, 0.43);
   text-align: center;
   position: absolute;
   top: 50%;

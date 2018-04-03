@@ -17,22 +17,21 @@
       <a href="https://github.com/shaunbseidman/galvanizetower"><img src="../assets/git2.png" alt=""></a>
     </div>
   </div>
-  <div class="newGif">
-    <h3>fart</h3>
-    <img src="../assets/gif2.gif" alt="">
-    <div class="tech">
-      <p>Technologies Used</p>
-      <img src="../assets/logo.png" alt="">
-      <img src="../assets/css.png" alt="">
-      <img src="../assets/post.png" alt="">
-      <img src="../assets/js.png" alt="">
-      <img src="../assets/node.png" alt="">
-      <img src="../assets/boot.png" alt="">
-      <p>A fun and simple web app that tracks the retail and resell prices for sneakers. Using the chart.js library, it creates an easy to read comparison chart which shows whether the price has gone up or down from the suggested retail price. </p>
-      <a href="https://github.com/shaunbseidman/galvanizetower"><img src="../assets/git2.png" alt=""></a>
+    <div class="newGif">
+      <h3>fart</h3>
+      <img src="../assets/gif2.gif" alt="">
+      <div class="tech">
+        <p>Technologies Used</p>
+        <img src="../assets/logo.png" alt="">
+        <img src="../assets/css.png" alt="">
+        <img src="../assets/post.png" alt="">
+        <img src="../assets/js.png" alt="">
+        <img src="../assets/node.png" alt="">
+        <img src="../assets/boot.png" alt="">
+        <p>A fun and simple web app that tracks the retail and resell prices for sneakers. Using the chart.js library, it creates an easy to read comparison chart which shows whether the price has gone up or down from the suggested retail price. </p>
+        <a href="https://github.com/shaunbseidman/galvanizetower"><img src="../assets/git2.png" alt=""></a>
+      </div>
     </div>
-  </div>
-
   </div>
 
 
@@ -73,16 +72,29 @@ h3{
 #projects {
 }
 .shoeGif{
+  /* margin-top: 2em; */
+  margin: 1px;
+  border-radius: 25px;
+  background: rgba(191, 191, 191, 0.43);
+  filter: alpha(opacity=60);
   float: left;
   text-align: center;
   padding: 10px;
 }
 .newGif{
+  /* margin-top: 2em; */
+
+  margin: 1px;
+  border-radius: 25px;
+  background: rgba(191, 191, 191, 0.43);
+  filter: alpha(opacity=60);
   float: flex;
   text-align: center;
   padding: 10px;
 }
 #projectShit{
+
+  padding-top: 5em;
   display: flex;
   text-align: center;
   justify-content: space-between;

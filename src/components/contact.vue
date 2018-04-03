@@ -10,7 +10,7 @@
         <input type="text" name="fart"><br>
         Comment:<br>
         <input type="text" name="comment" height= 100 size="50"><br><br>
-        <input type='hidden' name='redirect_to' value='http://localhost:8080/#/contact' />
+        <input type='hidden' name='redirect_to' value='http://shut-effect.surge.sh/#/contact' />
         <button v-on:click="formSubmitted" type='submit' name="button">Submit</button>
       </form>
   </div>
@@ -53,15 +53,19 @@ h2{
   background-size: 100% 100%;
   position: relative;
 }
-.loader{
+/* .loader{
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white
-}
+} */
 #contactForm{
+
+  margin: 30px;
+  border-radius: 24px;
+  background: rgba(191, 191, 191, 0.43);
   text-align: center;
   position: absolute;
   top: 50%;
@@ -70,23 +74,21 @@ h2{
   color: white;
 }
 #contact{
+
   font-family: 'Droid Sans', arial, serif;
   /* padding: 70px; */
   /* margin: 10px; */
   text-align: center;
 }
 
-.loader {
+/* .loader {
+
     border: 16px solid #f3f3f3;
     border-top: 16px solid #3498db;
     border-radius: 50%;
     width: 120px;
     height: 120px;
     animation: spin 2s linear infinite;
-}
+} */
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
 </style>
