@@ -1,8 +1,5 @@
 <template>
 <div id="app" class="animated fadeIn">
-  <!-- <header class="animated fadeIn">
-  </header> -->
-
 <section>
       <div class="table">
       <router-link :to="{name: 'splash'}">
@@ -60,9 +57,11 @@ export default {
 body{
   height: 100%;
   width: 100%;
-  position: absolute;
 }
-
+html {
+  height: 100%;
+  width: 100%;
+}
 .table {
   list-style-type: none;
   margin: 0;
@@ -79,11 +78,6 @@ body{
 
 #logo {
   float: left;
-}
-
-#menu {
-  float: left;
-  display: block;
 }
 
 #linkImg {
@@ -112,6 +106,7 @@ li:hover {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   background-color: #575757;
+  opacity: 0.3;
   animation: shake 0.5s;
   animation-iteration-count: 1s;
   cursor: pointer;
@@ -129,7 +124,7 @@ img:hover {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   position: absolute;
 }
 

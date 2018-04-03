@@ -10,7 +10,6 @@
         <input type="text" name="fart"><br>
         Comment:<br>
         <input type="text" name="comment" height= 100 size="50"><br><br>
-        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
         <input type='hidden' name='redirect_to' value='http://localhost:8080/#/contact' />
         <button v-on:click="formSubmitted" type='submit' name="button">Submit</button>
       </form>
@@ -46,7 +45,7 @@ h2{
 
 }
 .backgroundImg {
-   opacity: 0.3;
+  opacity: 0.3;
   height: 100%;
   width: 100%;
   background-position: center;
@@ -78,8 +77,8 @@ h2{
 }
 
 .loader {
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #3498db; /* Blue */
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
     border-radius: 50%;
     width: 120px;
     height: 120px;

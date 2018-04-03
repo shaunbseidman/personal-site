@@ -48,11 +48,5 @@ html {
 }
 #who{
   position: relative;
-  /* padding: 70px;
-  margin: 10px; */
-  /* margin-bottom: 2em; */
-  /* padding-bottom: 30px; */
-  /* padding: 20px; */
-  /* display: flex; */
   text-align: center;}
 </style>
