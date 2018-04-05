@@ -56,7 +56,7 @@ h2{
 #contactForm{
   padding: 20px;
   margin: 30px;
-  border-radius: 18px;
+  border-radius: 24px;
   background: rgba(191, 191, 191, 0.43);
   text-align: center;
   position: absolute;

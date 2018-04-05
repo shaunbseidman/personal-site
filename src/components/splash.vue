@@ -11,12 +11,10 @@
 </div>
 </template>
 <script>
-import headShit from '@/components/headShit'
 
 export default {
   name: "splash",
   components:{
-    headShit
   },
   data: () => ({
 
@@ -45,7 +43,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  position: relative;
+  position: absolute;
 }
 .textBox{
   margin: 10px;
@@ -61,11 +59,9 @@ img {
   -moz-border-radius: 200px;
   -webkit-border-radius: 200px;
   border-radius: 200px;
-  background-color: #C9D4CB
-;
+  background-color: #C9D4CB;
   opacity: 0.5;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-
+  filter: alpha(opacity=60);
   font-weight: bold;
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;

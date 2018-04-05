@@ -25,7 +25,6 @@
   <section v-show="isOpen">
     <who></who>
   </section>
-  <!-- <footerStuff></footerStuff> -->
   <router-view/>
 </div>
 </template>

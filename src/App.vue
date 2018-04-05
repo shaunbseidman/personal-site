@@ -1,7 +1,6 @@
 <template>
 <div id="app" class="animated fadeIn">
-<section>
-      <div class="table">
+    <div class="table">
       <router-link :to="{name: 'splash'}">
         <img id='logo' src="./assets/SSLogo 2.png" alt="">
       </router-link>
@@ -13,16 +12,16 @@
           <li id='linkListItem'>Projects</li>
         </router-link>
       </ul>
-      <a href="http://www.instagram.com/youth.and.lust"><img class = 'linkImages' id='img2' src="./assets/ig.png" alt=""></a>
-      <a href="http://www.twitter.com/wangchung2nite_"><img class = 'linkImages' id='img2' src="./assets/twitter.png" alt=""></a>
-      <a href="https://www.linkedin.com/in/shaun-seidman/"><img class = 'linkImages' id='img2' src="./assets/linked.png" alt=""></a>
-      <a href="http://www.github.com/shaunbseidman"><img class = 'linkImages' id='img2' src="./assets/git2.png" alt="git"></a>
-      <router-link :to="{name: 'contact'}">
-        <img class='linkImages' src="./assets/mail.png" alt="">
-      </router-link>
+      <div class="link2shit">
+        <a href="http://www.instagram.com/youth.and.lust"><img class = 'linkImages' id='img2' src="./assets/ig.png" alt=""></a>
+        <a href="http://www.twitter.com/wangchung2nite_"><img class = 'linkImages' id='img2' src="./assets/twitter.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/shaun-seidman/"><img class = 'linkImages' id='img2' src="./assets/linked.png" alt=""></a>
+        <a href="http://www.github.com/shaunbseidman"><img class = 'linkImages' id='img2' src="./assets/git2.png" alt="git"></a>
+        <router-link :to="{name: 'contact'}">
+          <img class='linkImages' src="./assets/mail.png" alt="">
+        </router-link>
+      </div>
     </div>
-</section>
-  <info></info>
   <router-view/>
 </div>
 </template>
@@ -38,7 +37,6 @@ export default {
   },
   data() {
     return {
-
     }
   },
   methods: {}
@@ -49,24 +47,29 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 #app {
-   font-family: 'Lato', sans-serif;
-   height: 100%;
-   width: 100%;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height:100vh;
+  position: absolute;
 }
 
-body{
+body {
   height: 100%;
   width: 100%;
 }
+
 html {
   height: 100%;
   width: 100%;
 }
+
 .table {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  position: relative;
+
 }
 
 .linkImages {
@@ -80,15 +83,17 @@ html {
   float: left;
 }
 
-#linkImg {
-  float: right;
-  text-align: center;
-  padding: 16px;
-  display: block;
-  color: white;
-  text-decoration: none
+#logo:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
 }
-.linkImages:hover{
+.link2shit{
+  margin-right: 10px;
+  position: relative;
+
+}
+
+.linkImages:hover {
   animation: shake 0.5s;
   animation-iteration-count: 1s;
   cursor: pointer;
@@ -116,14 +121,7 @@ li:hover {
   opacity: 0.6;
   cursor: pointer;
 }
-
-/* img:hover {
-  animation: shake 0.5s;
-  animation-iteration-count: 1s;
-  cursor: pointer;
-} */
-
-.backgroundImg {
+/* .backgroundImg {
   opacity: 0.3;
   height: 100%;
   width: 100%;
@@ -131,7 +129,7 @@ li:hover {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
-}
+} */
 
 @keyframes shake {
   0% {
