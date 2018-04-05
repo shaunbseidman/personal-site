@@ -48,20 +48,14 @@ img {
   position: relative;
 }
 .textBox{
+  margin: 10px;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-    /* margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-
 }
 .hero-text {
-  /* margin: 30px; */
   width: 400px;
   height: 400px;
   -moz-border-radius: 200px;

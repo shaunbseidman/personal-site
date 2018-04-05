@@ -27,7 +27,7 @@ export default {
   },
   methods:{
     formSubmitted(){
-      alert('If I programmed this correctly I have hopefully have received your message and will get back to you as quickly as possible.')
+      alert('Your message has been sent! I will respond back as quickly as possible.')
     }
   }
 }
@@ -53,18 +53,10 @@ h2{
   background-size: 100% 100%;
   position: relative;
 }
-/* .loader{
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white
-} */
 #contactForm{
-
+  padding: 20px;
   margin: 30px;
-  border-radius: 24px;
+  border-radius: 18px;
   background: rgba(191, 191, 191, 0.43);
   text-align: center;
   position: absolute;
@@ -80,15 +72,5 @@ h2{
   /* margin: 10px; */
   text-align: center;
 }
-
-/* .loader {
-
-    border: 16px solid #f3f3f3;
-    border-top: 16px solid #3498db;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
-} */
 
 </style>

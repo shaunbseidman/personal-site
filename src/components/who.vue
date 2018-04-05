@@ -23,11 +23,15 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
 body,
 html {
   height: 100%;
   width: 100%;
-
+}
+p{
+  font-family: 'Julius Sans One', sans-serif;
 }
 .backgroundImg {
   opacity: 0.3;
@@ -39,12 +43,13 @@ html {
   position: relative;
 }
 #aboutMe{
+  padding: 20px;
   margin: 30px;
-  border-radius: 25px;
+  border-radius: 18px;
   background: rgba(191, 191, 191, 0.43);
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;

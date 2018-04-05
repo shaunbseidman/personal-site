@@ -7,7 +7,7 @@
       </router-link>
       <ul id='linkList'>
         <router-link :to="{name: 'who'}">
-          <li class="animated fadeIn" id='linkListItem'>About Shaun</li>
+          <li id='linkListItem'>About Shaun</li>
         </router-link>
         <router-link :to="{name: 'projects'}">
           <li id='linkListItem'>Projects</li>
@@ -88,6 +88,11 @@ html {
   color: white;
   text-decoration: none
 }
+.linkImages:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: 1s;
+  cursor: pointer;
+}
 
 #linkListItem {
   float: left;
@@ -100,23 +105,23 @@ html {
 
 #linkListItem:hover {
   cursor: pointer;
+  color: #F513AA;
 }
 
 li:hover {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  background-color: #575757;
   opacity: 0.3;
-  animation: shake 0.5s;
-  animation-iteration-count: 1s;
+  background-color: #D9FAED;
+  opacity: 0.6;
   cursor: pointer;
 }
 
-img:hover {
+/* img:hover {
   animation: shake 0.5s;
   animation-iteration-count: 1s;
   cursor: pointer;
-}
+} */
 
 .backgroundImg {
   opacity: 0.3;

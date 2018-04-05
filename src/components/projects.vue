@@ -72,9 +72,9 @@ h3{
 #projects {
 }
 .shoeGif{
-  /* margin-top: 2em; */
+  padding: 30px;
   margin: 1px;
-  border-radius: 25px;
+  border-radius: 20px;
   background: rgba(191, 191, 191, 0.43);
   filter: alpha(opacity=60);
   float: left;
@@ -82,10 +82,9 @@ h3{
   padding: 10px;
 }
 .newGif{
-  /* margin-top: 2em; */
-
+  padding: 30px;
   margin: 1px;
-  border-radius: 25px;
+  border-radius: 20px;
   background: rgba(191, 191, 191, 0.43);
   filter: alpha(opacity=60);
   float: flex;
@@ -93,7 +92,6 @@ h3{
   padding: 10px;
 }
 #projectShit{
-
   padding-top: 5em;
   display: flex;
   text-align: center;
@@ -103,6 +101,9 @@ h3{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+img{
+  /* padding:  */
 }
 
 .tech {
