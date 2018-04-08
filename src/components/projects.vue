@@ -78,6 +78,8 @@ h3{
   position: relative; */
 }
 .shoeGif{
+  padding-top: 10px;
+
   /* background: rgba(191, 191, 191, 0.43);
   border-radius: 24px;
   padding: 20px;
@@ -129,6 +131,7 @@ h3{
   padding: 30px; */
 }
 .newGif{
+  padding-top: 10px;
   /* display:inline-block;
   background: rgba(191, 191, 191, 0.43);
   border-radius: 24px;
@@ -169,11 +172,12 @@ h3{
 
 #projectShit > div {
   flex: 1;          /* Distribute space equally among the flex items */
-  min-width: 300px; /* But force them to be at least300px wide */
+  min-width: 270px; /* But force them to be at least300px wide */
   /* border: 1px solid; */
 }
 
 #projectShit{
+  padding: 50px;
   width: 100%;
   height: 100%;
   display: flex;    /* Magic begins */
