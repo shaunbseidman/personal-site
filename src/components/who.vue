@@ -1,66 +1,69 @@
 <template>
-  <div id="who">
-    <div class="aboutClass">
-    <img class='backgroundImg' src="../assets/dog.jpeg" alt="">
+  <div class="fart">
+    <img class='backgroundImg' src="../assets/pic.jpeg" alt="">
+<div id="who">
+  <div class="aboutClass">
     <div class="animated fadeIn" id="aboutMe">
-      <p>Lorem ipsum dolor sit amet, mel iriure temporibus contentiones te, congue convenire usu at. Dicat pertinax at per, decore repudiandae pro ut. Eam dicat commodo vituperatoribus eu, vix nibh tota id, probo dictas vim te. Sea ad lorem discere intellegam, graece erroribus an nec. Ei eam propriae reprehendunt, cu pro esse dictas doctus, nec oratio abhorreant ex.
-      </p>
+      <p>Thanks for taking a look. I am a full stack developer with a passion for creating, problem solving and continuing to learn and grow. My previous experience in managing a small business and team building have helped to solidify my working techniques
+        with others as well as instill a never-quit attitude.</p>
     </div>
   </div>
 </div>
+</div>
+
 </template>
 <script>
 export default {
   name: "who",
-  data(){
-    return{
-
-    }
+  data() {
+    return {}
   },
-  methods:{
-
-  }
+  methods: {}
 }
 </script>
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
-body{
+body {
   height: 100%;
-  width:100%;
+  width: 100%;
 }
-html{
-  height:100%;
-  width:100%;
+
+html {
+  height: 100%;
+  width: 100%;
 }
-p{
-  font-family: 'Julius Sans One', sans-serif;
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
+
+
 .backgroundImg {
-  opacity: 0.3;
+  opacity: 0.2;
   height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  /* background-size: cover; */
+
   background-size: 100% 100%;
-  position: relative;
+  position: absolute;
 }
-.aboutClass{
-  position: relative;
-}
-#aboutMe{
-  padding: 20px;
-  margin: 30px;
-  border-radius: 18px;
+
+#aboutMe {
+  margin:0 auto;
+  padding-top: 15px;
+
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 24px;
   background: rgba(191, 191, 191, 0.43);
   text-align: center;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
-/* #who{
-  position: relative;
-  text-align: center;} */
 </style>

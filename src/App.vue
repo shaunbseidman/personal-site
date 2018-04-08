@@ -121,15 +121,6 @@ li:hover {
   opacity: 0.6;
   cursor: pointer;
 }
-/* .backgroundImg {
-  opacity: 0.3;
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  position: absolute;
-} */
 
 @keyframes shake {
   0% {

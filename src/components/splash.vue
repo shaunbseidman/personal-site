@@ -1,6 +1,6 @@
 <template>
 <div class="animated fadeIn" id="splash">
-  <img src="../assets/dog.jpeg" alt="">
+  <img src="../assets/pic.jpeg" alt="">
   <div class="hero-text">
     <div class="textBox">
     <h1>Shaun Seidman</h1>

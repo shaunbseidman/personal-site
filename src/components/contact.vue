@@ -1,6 +1,6 @@
 <template>
   <div id="contact">
-    <img class='backgroundImg' src="../assets/dog.jpeg" alt="">
+    <img class='backgroundImg' src="../assets/pic.jpeg" alt="">
     <div class="animated fadeIn" id="contactForm">
       <h2>Let's get in touch</h2>
       <form action="https://getsimpleform.com/messages?form_api_token=01178de3065ef85c5dd46493fabaf917" method="post">
@@ -33,29 +33,39 @@ export default {
 }
 </script>
 <style  scoped>
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 body,
 html {
   height: 100%;
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
+
 }
 h2{
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+button{
+  border-radius: 4px;
+}
+button:hover{
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  cursor: pointer;
 
 }
 .backgroundImg {
-  opacity: 0.3;
+  opacity: 0.2;
   height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  position: relative;
+  position: absolute;
 }
 #contactForm{
+  margin:0 auto;
   padding: 20px;
-  margin: 30px;
   border-radius: 24px;
   background: rgba(191, 191, 191, 0.43);
   text-align: center;
@@ -66,11 +76,8 @@ h2{
   color: white;
 }
 #contact{
-
   font-family: 'Droid Sans', arial, serif;
-  /* padding: 70px; */
-  /* margin: 10px; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 </style>
