@@ -48,8 +48,11 @@ export default {
 @media only screen and (max-width: 600px) {
     .backgroundImg {
         position: relative;
-
     }
+    .link2shit{
+      width: 230px;
+    }
+
 }
 #app {
   font-family: 'Lato', sans-serif;
