@@ -23,7 +23,12 @@ export default {
 </script>
 <style scoped >
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@media only screen and (max-width: 600px) {
+    .backgroundImg {
+        position: absolute;
 
+    }
+}
 body{
   height: 100%;
   width: 100%;

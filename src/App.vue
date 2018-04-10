@@ -45,7 +45,12 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@media only screen and (max-width: 600px) {
+    .backgroundImg {
+        position: relative;
 
+    }
+}
 #app {
   font-family: 'Lato', sans-serif;
   width: 100%;
