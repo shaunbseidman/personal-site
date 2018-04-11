@@ -70,6 +70,12 @@ h3{
 }
 
 @media only screen and (max-width: 600px) {
+  .backgroundImg {
+    height: 100%;
+    /* width: auto; */
+    /* overflow: hidden; */
+    /* position: absolute; */
+  }
     .gif {
       width: 290px;
       height:auto;
@@ -77,6 +83,8 @@ h3{
       align-items: center;
     }
     .shoeGif{
+      text-align: center;
+
       display: inline-block;
       align-items: center;
       background-color: yellow;
@@ -87,15 +95,18 @@ h3{
       text-align: center;
       align-items: center;
     }
-    .projects{
+    #projects{
       align-items: center;
+      position: relative;
+      padding-right: 20px;
+      /* padding-right:3000px; */
     }
 }
 
 .backgroundImg {
   opacity: 0.2;
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;

@@ -25,8 +25,10 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 @media only screen and (max-width: 600px) {
     .backgroundImg {
-        position: absolute;
+      height: 100%;
+      width: auto;
 
+        /* position: absolute; */
     }
 }
 body{
@@ -44,7 +46,7 @@ h4{
 img {
   opacity: 0.6;
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;

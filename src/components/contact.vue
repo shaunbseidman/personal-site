@@ -2,13 +2,14 @@
   <div id="contact">
     <img class='backgroundImg' src="../assets/pic.jpeg" alt="">
     <div class="animated fadeIn" id="contactForm">
-      <h2>Let's get in touch</h2>
+      <h2>Let's work together</h2>
+      <h6>As an aspiring junior dev, I would love to be able to showcase my talents and build something with you.</h6>
       <form action="https://getsimpleform.com/messages?form_api_token=01178de3065ef85c5dd46493fabaf917" method="post">
         Name:<br>
         <input type="text" name= "Name: "><br>
         E-mail:<br>
         <input type="text" name="fart"><br>
-        Comment:<br>
+        Message:<br>
         <input type="text" name="comment" height= 100 size="50"><br><br>
         <input type='hidden' name='redirect_to' value='http://shut-effect.surge.sh/#/contact' />
         <button v-on:click="formSubmitted" type='submit' name="button">Submit</button>
@@ -45,6 +46,10 @@ html {
 h2{
   font-family: 'Open Sans', sans-serif;
 }
+h6{
+  font-family: 'Open Sans', sans-serif;
+
+}
 button{
   border-radius: 4px;
 }
@@ -57,7 +62,7 @@ button:hover{
 .backgroundImg {
   opacity: 0.2;
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;

@@ -77,7 +77,9 @@ time, mark, audio, video {
 
 @media only screen and (max-width: 900px) {
   .backgroundImg {
-    position: absolute;
+    height: 100%;
+    width: auto;
+    /* position: absolute; */
   }
   #linkList{
   }
