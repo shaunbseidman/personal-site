@@ -45,8 +45,6 @@ p {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
-
   background-size: 100% 100%;
   position: absolute;
 }

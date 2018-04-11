@@ -71,15 +71,15 @@ h3{
 @media only screen and (max-width: 600px) {
     .gif {
       width: 290px;
-      height:170px;
+      height:auto;
+      text-align: center;
     }
     .gif2{
       width: 290px;
-      height:170px;
-
+      height:auto;
+      text-align: center;
     }
 }
-
 
 .backgroundImg {
   opacity: 0.2;
@@ -91,137 +91,37 @@ h3{
   position: absolute;
 }
 #projects {
-  /* height: 100%;
-  width: 100%;
-  position: relative; */
+
 }
 .shoeGif{
   padding-top: 10px;
-  /* background: rgba(191, 191, 191, 0.43);
-  border-radius: 24px;
-  padding: 20px;
-  text-align: center;
-  float: left;
-  margin: 0 auto;
-  color: white;
-  display:inline-block;
-  position: absolute; */
-
-  /* background-color: red; */
   text-align: center;
   border-radius: 24px;
   margin: 10px;
-
-  /* padding: 20px; */
-
   color: white;
-
-  /* height: 70%;
-  width:40%;
-  float:left; */
   background: rgba(191, 191, 191, 0.43);
-
-  /* margin:0 auto;
-  padding: 20px;
-  border-radius: 24px;
-  background: rgba(191, 191, 191, 0.43);
-  text-align: center;
-  position: absolute; */
-  /* top: 20%; */
-  /* left: 20%; */
-  /* transform: translate(-20%, -20%); */
-
-  /* float: left; */
-  /* display:inline-block; */
-  /* float: left; */
-  /* background-color: red; */
-  /* padding: 30px; */
-  /* margin: 2em; */
-  /* text-align: center; */
-  /* padding: 30px; */
-  /* margin: 2em;
-  border-radius: 20px;
-  background: rgba(191, 191, 191, 0.43);
-  filter: alpha(opacity=60);
-  float: left;
-  text-align: center;
-  padding: 30px; */
 }
 .newGif{
   padding-top: 10px;
-  /* display:inline-block;
-  background: rgba(191, 191, 191, 0.43);
-  border-radius: 24px;
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto;
-  color: white;
-  float: left; */
   border-color: rgba(191, 191, 191, 0.43);
   text-align: center;
   border-radius: 24px;
   margin: 10px;
-  /* padding: 20px; */
-
   color: white;
-
-  /* height: 50%; */
-  /* display:block; */
-  /* width:40%; */
-
   background: rgba(191, 191, 191, 0.43);
-
-  /* float:right; */
-
-
-
-  /* display:flex; */
-  /* position: relative; */
-
-  /* padding: 30px; */
-  /* margin: 2em;
-  border-radius: 20px;
-  background: rgba(191, 191, 191, 0.43);
-  filter: alpha(opacity=60);
-  text-align: center;
-  padding: 30px; */
 }
 
 #projectShit > div {
-  flex: 1;          /* Distribute space equally among the flex items */
-  min-width: 290px; /* But force them to be at least300px wide */
-  /* border: 1px solid; */
+  flex: 1;
+  min-width: 290px;
 }
 
 #projectShit{
   padding: 50px;
   width: 100%;
   height: 100%;
-  display: flex;    /* Magic begins */
-  flex-wrap: wrap;  /* Allow multiple lines */
-  /* overflow: hidden; */
-  /* margin:0 auto;
-  padding: 20px;
-  border-radius: 24px;
-  background: rgba(191, 191, 191, 0.43);
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white; */
-  /* max-width:100%;
-  height:auto;
-  position: relative;
-  margin-top: 5em;
   display: flex;
-  text-align: center;
-  justify-content: space-between;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white; */
+  flex-wrap: wrap;
 }
 .gitLink{
   text-align: center;

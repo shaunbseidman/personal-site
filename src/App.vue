@@ -1,28 +1,39 @@
 <template>
 <div id="app" class="animated fadeIn">
-    <div class="table">
-      <router-link :to="{name: 'splash'}">
-        <img id='logo' src="./assets/SSLogo 2.png" alt="">
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">   -->
+  <div class="table">
+    <div class="fuck">
+    <router-link :to="{name: 'splash'}">
+      <img id='logo' src="./assets/SSLogo 2.png" alt="">
+    </router-link>
+    <ul id='linkList'>
+      <router-link :to="{name: 'who'}">
+        <li id='linkListItem'>About Shaun</li>
       </router-link>
-      <ul id='linkList'>
-        <router-link :to="{name: 'who'}">
-          <li id='linkListItem'>About Shaun</li>
-        </router-link>
-        <router-link :to="{name: 'projects'}">
-          <li id='linkListItem'>Projects</li>
-        </router-link>
-      </ul>
-      <div class="link2shit">
+      <router-link :to="{name: 'projects'}">
+        <li id='linkListItem'>Projects</li>
+      </router-link>
+    </ul>
+
+    </div>
+    <div class="link2shit">
+      <!-- <div class="poop"> -->
+
+      <router-link :to="{name: 'contact'}">
+        <img class='linkImages' src="./assets/mail.png" alt="">
+      </router-link>
+      <a href="http://www.github.com/shaunbseidman"><img class = 'linkImages' id='img2' src="./assets/git2.png" alt="git"></a>
+      <a href="https://www.linkedin.com/in/shaun-seidman/"><img class = 'linkImages' id='img2' src="./assets/linked.png" alt=""></a>
         <a href="http://www.instagram.com/youth.and.lust"><img class = 'linkImages' id='img2' src="./assets/ig.png" alt=""></a>
         <a href="http://www.twitter.com/wangchung2nite_"><img class = 'linkImages' id='img2' src="./assets/twitter.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/shaun-seidman/"><img class = 'linkImages' id='img2' src="./assets/linked.png" alt=""></a>
-        <a href="http://www.github.com/shaunbseidman"><img class = 'linkImages' id='img2' src="./assets/git2.png" alt="git"></a>
-        <router-link :to="{name: 'contact'}">
-          <img class='linkImages' src="./assets/mail.png" alt="">
-        </router-link>
-      </div>
+      <!-- </div> -->
+
     </div>
+  </div>
   <router-view/>
+<!-- </nav> -->
 </div>
 </template>
 
@@ -36,28 +47,85 @@ export default {
     projects
   },
   data() {
-    return {
-    }
+    return {}
   },
   methods: {}
 }
 </script>
 
 <style scoped>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;}
 @import url('https://fonts.googleapis.com/css?family=Lato');
-@media only screen and (max-width: 600px) {
-    .backgroundImg {
-        position: relative;
-    }
-    .link2shit{
-      width: 230px;
-    }
 
+@media only screen and (max-width: 900px) {
+  .backgroundImg {
+    position: absolute;
+  }
+  #linkList{
+  }
+  #linkListItem{
+    font-size: 12px;
+    /* padding: 40px; */
+    /* margin: -10px; */
+    display: inline-block;
+  }
+  #logo{
+  }
+  .linkImages{
+    height: 19px;
+    display: inline-block;
+
+
+  }
+  .link2shit {
+    margin: auto;
+
+    /* text-align: center; */
+    /* display: inline-block; */
+    /* display: none; */
+    /* display: inline-block; */
+    /* display: none; */
+    /* float: right; */
+    /* height: 20px; */
+    /* text-align: center; */
+    /* width: 40px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    position: relative; */
+  }
+
+  .table {
+    /* position: relative; */
+    /* display: inline-block; */
+  }
+  .fuck {
+    /* display: inline-block; */
+  }
 }
+
 #app {
   font-family: 'Lato', sans-serif;
   width: 100%;
-  height:100vh;
+  height: 100vh;
   position: absolute;
 }
 
@@ -72,11 +140,13 @@ html {
 }
 
 .table {
-  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  /* list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
-  position: relative;
+  position: relative; */
+  /* justify-content: space-between; */
 
 }
 
@@ -95,12 +165,24 @@ html {
   opacity: 0.8;
   filter: alpha(opacity=50);
 }
-.link2shit{
-  margin-right: 10px;
-  position: relative;
+
+.link2shit {
+  display: flex;
+  flex-direction:row;
+  align-items: flex-end;
+  padding-bottom: 12px;
+
+  /* margin-right: 10px;
+  position: relative; */
 
 }
 
+.fuck{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+}
 .linkImages:hover {
   animation: shake 0.5s;
   animation-iteration-count: 1s;
