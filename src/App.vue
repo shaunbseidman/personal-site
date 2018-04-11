@@ -95,7 +95,7 @@ time, mark, audio, video {
     margin-top: 10px;
 
     /* padding-top: 10px; */
-    height: 14px;
+    height: 18px;
     /* display: inline-block; */
 
 
