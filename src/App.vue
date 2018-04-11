@@ -26,8 +26,8 @@
       </router-link>
       <a href="http://www.github.com/shaunbseidman"><img class = 'linkImages' id='img2' src="./assets/git2.png" alt="git"></a>
       <a href="https://www.linkedin.com/in/shaun-seidman/"><img class = 'linkImages' id='img2' src="./assets/linked.png" alt=""></a>
-        <a href="http://www.instagram.com/youth.and.lust"><img class = 'linkImages' id='img2' src="./assets/ig.png" alt=""></a>
-        <a href="http://www.twitter.com/wangchung2nite_"><img class = 'linkImages' id='img2' src="./assets/twitter.png" alt=""></a>
+      <a href="http://www.instagram.com/youth.and.lust"><img class = 'linkImages' id='img2' src="./assets/ig.png" alt=""></a>
+      <a href="http://www.twitter.com/wangchung2nite_"><img class = 'linkImages' id='img2' src="./assets/twitter.png" alt=""></a>
       <!-- </div> -->
 
     </div>
@@ -82,22 +82,28 @@ time, mark, audio, video {
   #linkList{
   }
   #linkListItem{
-    font-size: 12px;
+    font-size: 10px;
     /* padding: 40px; */
     /* margin: -10px; */
     display: inline-block;
   }
   #logo{
+    /* height: 40px;
+    width: 40px; */
   }
   .linkImages{
-    height: 19px;
-    display: inline-block;
+    margin-top: 10px;
+
+    /* padding-top: 10px; */
+    height: 14px;
+    /* display: inline-block; */
 
 
   }
   .link2shit {
-    margin: auto;
-
+    margin-bottom: 13px;
+    /* margin: auto; */
+    /* background-color: red; */
     /* text-align: center; */
     /* display: inline-block; */
     /* display: none; */
@@ -114,11 +120,18 @@ time, mark, audio, video {
   }
 
   .table {
+    /* background-color: blue; */
+    /* display: inline-block; */
+
     /* position: relative; */
     /* display: inline-block; */
   }
   .fuck {
-    /* display: inline-block; */
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
   }
 }
 
@@ -171,6 +184,7 @@ html {
   flex-direction:row;
   align-items: flex-end;
   padding-bottom: 12px;
+  padding-right: 15px;
 
   /* margin-right: 10px;
   position: relative; */

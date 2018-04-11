@@ -15,6 +15,7 @@
       <img src="../assets/node.png" alt="">
       <img src="../assets/boot.png" alt="">
       <p>A fun and simple web app that tracks the retail and resell prices for sneakers. Using the chart.js library, it creates an easy to read comparison chart which shows whether the price has gone up or down from the suggested retail price. </p>
+      <a class = 'gitLink' href="http://cute-middle.surge.sh/#/"><img src="../assets/link.png" alt=""></a>
       <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower"><img src="../assets/git2.png" alt=""></a>
     </div>
   </div>
@@ -73,11 +74,21 @@ h3{
       width: 290px;
       height:auto;
       text-align: center;
+      align-items: center;
+    }
+    .shoeGif{
+      display: inline-block;
+      align-items: center;
+      background-color: yellow;
     }
     .gif2{
       width: 290px;
       height:auto;
       text-align: center;
+      align-items: center;
+    }
+    .projects{
+      align-items: center;
     }
 }
 
