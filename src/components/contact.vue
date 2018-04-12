@@ -10,7 +10,7 @@
         E-mail:<br>
         <input type="text" name="fart"><br>
         Message:<br>
-        <input type="text" name="comment" height= 100 size="50"><br><br>
+        <input type="text" name="comment" height= 100 size="39"><br><br>
         <input type='hidden' name='redirect_to' value='http://shut-effect.surge.sh/#/contact' />
         <button v-on:click="formSubmitted" type='submit' name="button">Submit</button>
       </form>
@@ -35,10 +35,6 @@ export default {
 </script>
 <style  scoped>
 
-@media only screen and (max-width: 900px) {
-  .backgroundImg {
-display: none;
-  }}
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 body,
@@ -86,8 +82,16 @@ button:hover{
   color: white;
 }
 #contact{
-  font-family: 'Droid Sans', arial, serif;
-  /* text-align: center; */
+  font-family: 'Open Sans', sans-serif;
 }
+@media only screen and (max-width: 900px) {
+  .backgroundImg{
+    display: none;
+  }
+  #contactForm{
+    background: rgba(44, 50, 56, 0.8);
+    width: 350px;
+  }
 
+}
 </style>

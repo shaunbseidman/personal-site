@@ -1,10 +1,7 @@
 <template>
 <div id="app" class="animated fadeIn">
-
-
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">   -->
   <div class="table">
-    <div class="fuck">
+    <div class="leftLinks">
     <router-link :to="{name: 'splash'}">
       <img id='logo' src="./assets/SSLogo 2.png" alt="">
     </router-link>
@@ -19,7 +16,6 @@
 
     </div>
     <div class="link2shit">
-      <!-- <div class="poop"> -->
 
       <router-link :to="{name: 'contact'}">
         <img class='linkImages' src="./assets/mail.png" alt="">
@@ -74,71 +70,6 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;}
 @import url('https://fonts.googleapis.com/css?family=Lato');
-
-@media only screen and (max-width: 900px) {
-  .backgroundImg {
-    height: 100%;
-    width: auto;
-    position: relative;
-    /* height: 100%;
-    width: auto; */
-    /* position: absolute; */
-  }
-  #linkList{
-  }
-  #linkListItem{
-    font-size: 10px;
-    /* padding: 40px; */
-    /* margin: -10px; */
-    display: inline-block;
-  }
-  #logo{
-    /* height: 40px;
-    width: 40px; */
-  }
-  .linkImages{
-    margin-top: 10px;
-
-    /* padding-top: 10px; */
-    height: 14px;
-    /* display: inline-block; */
-
-
-  }
-  .link2shit {
-    margin-bottom: 13px;
-    /* margin: auto; */
-    /* background-color: red; */
-    /* text-align: center; */
-    /* display: inline-block; */
-    /* display: none; */
-    /* display: inline-block; */
-    /* display: none; */
-    /* float: right; */
-    /* height: 20px; */
-    /* text-align: center; */
-    /* width: 40px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    position: relative; */
-  }
-
-  .table {
-    /* background-color: blue; */
-    /* display: inline-block; */
-
-    /* position: relative; */
-    /* display: inline-block; */
-  }
-  .fuck {
-    /* background-color: yellow; */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: wrap-reverse;
-  }
-}
 
 #app {
   font-family: 'Lato', sans-serif;
@@ -196,7 +127,7 @@ html {
 
 }
 
-.fuck{
+.leftLinks{
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -249,4 +180,41 @@ li:hover {
   }
 
 }
+@media only screen and (max-width: 900px) {
+  #app{
+    background-image:url("./assets/pic2.jpeg");
+    opacity: 0.6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  }
+
+  .backgroundImg {
+  }
+  #linkListItem{
+    font-size: 10px;
+    display: inline-block;
+  }
+  #logo{
+
+  }
+  .linkImages{
+    margin-top: 10px;
+    height: 14px;
+  }
+  .link2shit {
+    margin-bottom: 13px;
+  }
+  .leftLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
+  }
+  .table{
+    background-color: black;
+  }
+}
+
 </style>

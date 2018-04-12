@@ -1,6 +1,7 @@
 <template>
 <div class="animated fadeIn" id="splash">
   <img src="../assets/pic.jpeg" alt="">
+  <!-- <img class='mobilePic' src="../assets/pic2.jpeg" alt=""> -->
   <div class="hero-text">
     <div class="textBox">
     <h1>Shaun Seidman</h1>
@@ -23,16 +24,7 @@ export default {
 </script>
 <style scoped >
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
-@media only screen and (max-width: 600px) {
-    .backgroundImg {
-      height: 100%;
-      width: 100%;
-      /* height: 100%;
-      width: auto; */
 
-        /* position: absolute; */
-    }
-}
 body{
   height: 100%;
   width: 100%;
@@ -45,10 +37,13 @@ h1,
 h4{
   color: black;
 }
+.mobilePic{
+  display: none;
+}
 img {
   opacity: 0.6;
   height: 100%;
-  /* width: 100%; */
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -79,6 +74,39 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+@media only screen and (max-width: 900px) {
+  #splash{
 
+    /* background-image: url("../assets/pic2.jpeg"); */
+
+  }
+  /* .mobilePic{
+    display: block;
+    height: 100%;
+    width: 130%;
+    background-size: 100% auto;
+
+  } */
+  img{
+    display: none;
+    /* background: ../assets/pic2.jpeg; */
+    /* position: relative; */
+    height: 100%;
+    width: auto;
+    background-repeat:no-repeat;
+    /* background-size:cover; */
+     background-size: 100% auto;
+
+  }
+  .hero-text{
+    height: 350px;
+    opacity: 0.7;
+    width: 350px;
+
+  }
+  .textBox{
+
+  }
 }
 </style>
