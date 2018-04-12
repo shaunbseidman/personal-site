@@ -79,6 +79,9 @@ time, mark, audio, video {
   .backgroundImg {
     height: 100%;
     width: auto;
+    position: relative;
+    /* height: 100%;
+    width: auto; */
     /* position: absolute; */
   }
   #linkList{

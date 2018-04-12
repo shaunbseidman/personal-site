@@ -71,26 +71,26 @@ h3{
 
 @media only screen and (max-width: 600px) {
   .backgroundImg {
+    display: none;
     height: 100%;
     /* width: auto; */
     /* overflow: hidden; */
     /* position: absolute; */
   }
     .gif {
-      width: 290px;
+      width: 310px;
       height:auto;
       text-align: center;
       align-items: center;
     }
     .shoeGif{
       text-align: center;
-
       display: inline-block;
       align-items: center;
       background-color: yellow;
     }
     .gif2{
-      width: 290px;
+      width: 310px;
       height:auto;
       text-align: center;
       align-items: center;

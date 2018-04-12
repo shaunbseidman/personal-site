@@ -34,6 +34,11 @@ export default {
 }
 </script>
 <style  scoped>
+
+@media only screen and (max-width: 900px) {
+  .backgroundImg {
+display: none;
+  }}
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 body,
@@ -62,7 +67,7 @@ button:hover{
 .backgroundImg {
   opacity: 0.2;
   height: 100%;
-  /* width: 100%; */
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;

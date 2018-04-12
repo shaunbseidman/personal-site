@@ -26,7 +26,9 @@ export default {
 @media only screen and (max-width: 600px) {
     .backgroundImg {
       height: 100%;
-      width: auto;
+      width: 100%;
+      /* height: 100%;
+      width: auto; */
 
         /* position: absolute; */
     }
