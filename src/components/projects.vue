@@ -165,7 +165,71 @@ h3 {
     width: auto;
     margin-left: -16px;
     align-items: center;
-    /* margin-left: */
+    overflow-y: auto;
+    overflow: scroll;
+    max-height:20vh;
+    position: relative;
+    /* background-image: url("../assets/floor.jpeg"); */
+  }
+  .shoeGif {
+    display: inline-block;
+    background: rgba(44, 50, 56, 0.8);
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+  }
+  .gif2 {
+    width: 290px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    /* background-image: url("../assets/floor.jpeg"); */
+
+  }
+  .gif {
+    width: 290px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+  }
+  .newGif {
+    display: inline-block;
+    background: rgba(44, 50, 56, 0.8);
+
+  }
+  #projects {
+    align-items: center;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .backgroundImg {
+    display: none;
+  }
+  .techPic{
+    height: 30px;
+  }
+  .bottomPic{
+    height: 25px;
+  }
+  h3{
+    font-size: 23px;
+  }
+  h5{
+    font-size: 23px;
+
+  }
+  .newGif{
+    background-image: url("../assets/floor.jpeg");
+
+  }
+  #projectShit {
+    margin-top: -30px;
+    max-height: 100%;
+    width: auto;
+    margin-left: -16px;
+    align-items: center;
     overflow-y: auto;
     overflow: scroll;
     max-height:90vh;
@@ -203,5 +267,8 @@ h3 {
     align-items: center;
     position: relative;
   }
+
+
+
 }
 </style>

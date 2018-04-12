@@ -214,7 +214,28 @@ li:hover {
   }
   .table{
     background-color:black;
+    /* position: relative; */
+
   }
 }
+@media only screen and (max-width: 1400px) {
+  .backgroundImg {
+    display: none;
+  }
+    #app{
+      background-image:url("./assets/pic2.jpeg");
+      opacity: 0.6;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+    }
+    .table{
+      background-color:black;
+    }
+
+
+}
+
 
 </style>

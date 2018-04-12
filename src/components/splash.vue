@@ -106,7 +106,22 @@ img {
 
   }
   .textBox{
+  }
+}
+@media only screen and (max-width: 1400px) {
+  img{
+    display: none;
+    height: 100%;
+    width: auto;
+    background-repeat:no-repeat;
+     background-size: 100% auto;
+  }
+  .hero-text{
+    height: 390px;
+    opacity: 0.7;
+    width: 390px;
 
   }
 }
+
 </style>

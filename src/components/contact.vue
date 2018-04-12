@@ -11,7 +11,7 @@
         <input type="text" name="fart"><br>
         Message:<br>
         <input type="text" name="comment" height= 100 size="24"><br><br>
-        <input type='hidden' name='redirect_to' value='http://shut-effect.surge.sh/#/contact' />
+        <!-- <input type='hidden' name='redirect_to' value='http://shut-effect.surge.sh/#/contact' /> -->
         <button v-on:click="formSubmitted" type='submit' name="button">Submit</button>
       </form>
   </div>
@@ -28,7 +28,7 @@ export default {
   },
   methods:{
     formSubmitted(){
-      alert('Your message has been sent! I will respond back as quickly as possible.')
+      alert('Your message has been sent! I will respond back within 24 hours.')
     }
   }
 }
