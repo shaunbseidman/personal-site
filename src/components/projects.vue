@@ -1,7 +1,21 @@
 <template>
 <div id="projects">
   <img class='backgroundImg' src="../assets/pic.jpeg" alt="">
+
+
+
+    <!-- <slide>
+      Slide 1 Content
+    </slide>
+    <slide>
+      Slide 2 Content
+    </slide> -->
+
+
   <div class="animated fadeIn" id="projectShit">
+    <carousel>
+    <slide>
+
     <div class="shoeGif">
       <h3>What's it Worth</h3>
       <img class='gif' src="../assets/gif2.gif" alt="">
@@ -19,7 +33,15 @@
         <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower"><img src="../assets/git2.png" alt=""></a>
       </div>
     </div>
+    <!-- <div class="poopGround">
+      <img src="../assets/floor.jpeg" alt="">
+    </div> -->
+        </slide>
+      <slide>
     <div class="newGif">
+      <!-- <div class="poopGround">
+        <img src="../assets/floor.jpeg" alt="">
+      </div> -->
       <h3>Fridgely</h3>
       <img class='gif2' src="../assets/fridge.gif" alt="">
       <div class="tech">
@@ -38,6 +60,10 @@
         <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img src="../assets/git2.png" alt=""></a>
       </div>
     </div>
+        </slide>
+        <slide>fart</slide>
+      </carousel>
+
   </div>
 
 
@@ -56,6 +82,24 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
+.VueCarousel-slide {
+  position: relative;
+  /* background: #42b983; */
+  color: #fff;
+  font-family: Arial;
+  text-align: center;
+  min-height: 700px;
+  max-width:700px;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 body,
 html {
   height: 100%;
@@ -63,6 +107,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 
 }
+
 
 h3 {
   font-family: 'Open Sans', sans-serif;
@@ -88,6 +133,7 @@ h3 {
 
 .shoeGif {
   padding-top: 10px;
+  /* height: 667px; */
   text-align: center;
   border-radius: 24px;
   margin: 10px;
@@ -112,10 +158,10 @@ h3 {
 
 #projectShit {
   padding: 50px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
 .gitLink {
@@ -132,14 +178,50 @@ h3 {
   font-family: 'Open Sans', sans-serif;
 }
 @media only screen and (max-width: 700px) {
+  .VueCarousel-slide{
+    /* max-width: 100px; */
+    max-height: 700px;
+width: auto;
+  }
   .backgroundImg {
     display: none;
+  }
+  .newGif{
+    background-image: url("../assets/floor.jpeg");
+
   }
   #projectShit {
     height: 100%;
     width: auto;
     align-items: center;
+    margin-left: -14px;
+    /* background-image: url("../assets/floor.jpeg"); */
   }
+  .shoeGif {
+    display: inline-block;
+    background: rgba(44, 50, 56, 0.8);
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+  }
+  .gif2 {
+    width: 290px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    /* background-image: url("../assets/floor.jpeg"); */
+
+  }
+  /* .poopGround{
+    display: inline-block;
+    display: block;
+    align-items: center;
+    height: auto;
+    margin-left:-37px;
+    width: 90%;
+
+  } */
   .gif {
     width: 290px;
     height: auto;
@@ -150,20 +232,6 @@ h3 {
     display: inline-block;
     background: rgba(44, 50, 56, 0.8);
 
-  }
-  .shoeGif {
-    display: inline-block;
-    background: rgba(44, 50, 56, 0.8);
-    width: 325px;
-    text-align: center;
-    display: inline-block;
-    align-items: center;
-  }
-  .gif2 {
-    width: 290px;
-    height: auto;
-    text-align: center;
-    align-items: center;
   }
   #projects {
     align-items: center;

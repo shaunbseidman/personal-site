@@ -66,6 +66,7 @@ p {
     display: none;
   }
   #aboutMe {
+    margin-top: 50px;
     background: rgba(44, 50, 56, 0.8);
     opacity: 7;
     width: 300px;
