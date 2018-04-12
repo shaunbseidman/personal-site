@@ -150,14 +150,14 @@ html {
 
 #linkListItem:hover {
   cursor: pointer;
-  color: #F513AA;
+  color: yellow;
 }
 
 li:hover {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   opacity: 0.3;
-  background-color: #D9FAED;
+  background-color: rgba(0, 255, 255, 0.3);
   opacity: 0.6;
   cursor: pointer;
 }
