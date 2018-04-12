@@ -21,39 +21,33 @@
       <img class='gif' src="../assets/gif2.gif" alt="">
       <div class="tech">
         <h5>Technologies Used</h5>
-        <img src="../assets/logo.png" alt="">
-        <img src="../assets/cypress.png" alt="">
-        <img src="../assets/js.png" alt="">
-        <img src="../assets/css.png" alt="">
-        <img src="../assets/post.png" alt="">
-        <img src="../assets/node.png" alt="">
-        <img src="../assets/boot.png" alt="">
+        <img class='techPic' src="../assets/logo.png" alt="">
+        <img class='techPic' src="../assets/cypress.png" alt="">
+        <img class='techPic' src="../assets/js.png" alt="">
+        <img class='techPic' src="../assets/css.png" alt="">
+        <img class='techPic' src="../assets/post.png" alt="">
+        <img class='techPic' src="../assets/node.png" alt="">
+        <img class='techPic' src="../assets/boot.png" alt="">
         <p>A fun and simple web app that tracks the retail and resell prices for sneakers. Using the chart.js library, it creates an easy to read comparison chart which shows whether the price has gone up or down from the suggested retail price. </p>
         <a class='gitLink' href="http://cute-middle.surge.sh/#/"><img src="../assets/link.png" alt=""></a>
         <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower"><img src="../assets/git2.png" alt=""></a>
       </div>
     </div>
-    <!-- <div class="poopGround">
-      <img src="../assets/floor.jpeg" alt="">
-    </div> -->
         </slide>
       <slide>
     <div class="newGif">
-      <!-- <div class="poopGround">
-        <img src="../assets/floor.jpeg" alt="">
-      </div> -->
       <h3>Fridgely</h3>
       <img class='gif2' src="../assets/fridge.gif" alt="">
       <div class="tech">
         <h5>Technologies Used</h5>
-        <img src="../assets/react.png" alt="">
-        <img src="../assets/swift.png" alt="">
-        <img src="../assets/js.png" alt="">
-        <img src="../assets/css.png" alt="">
-        <img src="../assets/post.png" alt="">
-        <img src="../assets/node.png" alt="">
-        <img src="../assets/jest.png" alt="">
-        <img src="../assets/aws.png" alt="">
+        <img class='techPic' src="../assets/react.png" alt="">
+        <img class='techPic' src="../assets/swift.png" alt="">
+        <img class='techPic' src="../assets/js.png" alt="">
+        <img class='techPic' src="../assets/css.png" alt="">
+        <img class='techPic' src="../assets/post.png" alt="">
+        <img class='techPic' src="../assets/node.png" alt="">
+        <img class='techPic' src="../assets/jest.png" alt="">
+        <img class='techPic' src="../assets/aws.png" alt="">
         <p>A collaborative group project implementing React Native, Clarafi image recognition and Amazon Web Services S3 image hosting. My role in this project was to create the back-end Express server, create the Knex database as well as help post the images
           taken from the iPhone’s native camera to an S3 bucket. Fridgely was created with the intent to scan an item in your fridge, take a photo and send it off to the image recognition API and then return a list of recipes based on the food item that
           was scanned.</p>
@@ -83,21 +77,21 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 .VueCarousel-slide {
-  position: relative;
+  /* position: relative; */
   /* background: #42b983; */
   color: #fff;
   font-family: Arial;
   text-align: center;
-  min-height: 700px;
-  max-width:700px;
+  /* min-height: 700px; */
+  /* max-width:700px; */
 }
 
-.label {
+/* .label {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 
 body,
@@ -172,6 +166,15 @@ h3 {
   opacity: 0.8;
   filter: alpha(opacity=50);
 }
+h3{
+  font-size:25px;
+}
+h5{
+  font-size: 19px;
+}
+p{
+  font-size: 12px;
+}
 
 .tech {
   padding: 15px;
@@ -179,22 +182,28 @@ h3 {
 }
 @media only screen and (max-width: 700px) {
   .VueCarousel-slide{
-    /* max-width: 100px; */
-    max-height: 700px;
-width: auto;
+    height: auto;
+    /* display: none; */
+    /* margin-top: -10px; */
+    /* max-width: 600px; */
+    /* width: 400px;
+
+    max-height: 700px; */
+    /* width: auto; */
   }
   .backgroundImg {
     display: none;
   }
-  .newGif{
-    background-image: url("../assets/floor.jpeg");
-
+  .techPic{
+    height: 20px;
+    width: 20px;
   }
   #projectShit {
-    height: 100%;
-    width: auto;
+    /* height: 100%;
+    width: auto; */
     align-items: center;
-    margin-left: -14px;
+    /* margin-left: -20px; */
+    margin-top: -55px;
     /* background-image: url("../assets/floor.jpeg"); */
   }
   .shoeGif {
@@ -230,6 +239,8 @@ width: auto;
   }
   .newGif {
     display: inline-block;
+    max-height: 700px;
+
     background: rgba(44, 50, 56, 0.8);
 
   }
