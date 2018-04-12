@@ -164,10 +164,11 @@ h3 {
     height: 100%;
     width: auto;
     align-items: center;
-    margin-left: -14px;
+    /* margin-left: */
     overflow-y: auto;
     overflow: scroll;
-    max-height: 100vh;
+    max-height:90vh;
+    position: relative;
     /* background-image: url("../assets/floor.jpeg"); */
   }
   .shoeGif {
