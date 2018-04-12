@@ -161,8 +161,9 @@ h3 {
   }
   #projectShit {
     margin-top: -30px;
-    height: 100%;
+    max-height: 100%;
     width: auto;
+    margin-left: -16px;
     align-items: center;
     /* margin-left: */
     overflow-y: auto;
