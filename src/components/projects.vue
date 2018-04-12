@@ -2,62 +2,46 @@
 <div id="projects">
   <img class='backgroundImg' src="../assets/pic.jpeg" alt="">
 
-
-
-    <!-- <slide>
-      Slide 1 Content
-    </slide>
-    <slide>
-      Slide 2 Content
-    </slide> -->
-
-
   <div class="animated fadeIn" id="projectShit">
-    <carousel>
-    <slide>
-
     <div class="shoeGif">
       <h3>What's it Worth</h3>
       <img class='gif' src="../assets/gif2.gif" alt="">
       <div class="tech">
         <h5>Technologies Used</h5>
-        <img class='techPic' src="../assets/logo.png" alt="">
-        <img class='techPic' src="../assets/cypress.png" alt="">
-        <img class='techPic' src="../assets/js.png" alt="">
-        <img class='techPic' src="../assets/css.png" alt="">
-        <img class='techPic' src="../assets/post.png" alt="">
-        <img class='techPic' src="../assets/node.png" alt="">
-        <img class='techPic' src="../assets/boot.png" alt="">
+        <img class = 'techPic' src="../assets/logo.png" alt="">
+        <img class = 'techPic' src="../assets/cypress.png" alt="">
+        <img class = 'techPic' src="../assets/js.png" alt="">
+        <img class = 'techPic' src="../assets/css.png" alt="">
+        <img class = 'techPic' src="../assets/post.png" alt="">
+        <img class = 'techPic' src="../assets/node.png" alt="">
+        <img class = 'techPic' src="../assets/boot.png" alt="">
         <p>A fun and simple web app that tracks the retail and resell prices for sneakers. Using the chart.js library, it creates an easy to read comparison chart which shows whether the price has gone up or down from the suggested retail price. </p>
-        <a class='gitLink' href="http://cute-middle.surge.sh/#/"><img src="../assets/link.png" alt=""></a>
-        <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower"><img src="../assets/git2.png" alt=""></a>
+        <a class='gitLink' href="http://cute-middle.surge.sh/#/"><img class = 'bottomPic' src="../assets/link.png" alt=""></a>
+        <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
-        </slide>
-      <slide>
+    <div class="poopGround">
+      <img src="../assets/floor.jpeg" alt="">
+    </div>
     <div class="newGif">
       <h3>Fridgely</h3>
       <img class='gif2' src="../assets/fridge.gif" alt="">
       <div class="tech">
         <h5>Technologies Used</h5>
-        <img class='techPic' src="../assets/react.png" alt="">
-        <img class='techPic' src="../assets/swift.png" alt="">
-        <img class='techPic' src="../assets/js.png" alt="">
-        <img class='techPic' src="../assets/css.png" alt="">
-        <img class='techPic' src="../assets/post.png" alt="">
-        <img class='techPic' src="../assets/node.png" alt="">
-        <img class='techPic' src="../assets/jest.png" alt="">
-        <img class='techPic' src="../assets/aws.png" alt="">
+        <img class = 'techPic' src="../assets/react.png" alt="">
+        <img class = 'techPic' src="../assets/swift.png" alt="">
+        <img class = 'techPic' src="../assets/js.png" alt="">
+        <img class = 'techPic' src="../assets/css.png" alt="">
+        <img class = 'techPic' src="../assets/post.png" alt="">
+        <img class = 'techPic' src="../assets/node.png" alt="">
+        <img class = 'techPic' src="../assets/jest.png" alt="">
+        <img class = 'techPic' src="../assets/aws.png" alt="">
         <p>A collaborative group project implementing React Native, Clarafi image recognition and Amazon Web Services S3 image hosting. My role in this project was to create the back-end Express server, create the Knex database as well as help post the images
           taken from the iPhone’s native camera to an S3 bucket. Fridgely was created with the intent to scan an item in your fridge, take a photo and send it off to the image recognition API and then return a list of recipes based on the food item that
           was scanned.</p>
-        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img src="../assets/git2.png" alt=""></a>
+        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
-        </slide>
-        <slide>fart</slide>
-      </carousel>
-
   </div>
 
 
@@ -76,24 +60,6 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
-.VueCarousel-slide {
-  /* position: relative; */
-  /* background: #42b983; */
-  color: #fff;
-  font-family: Arial;
-  text-align: center;
-  /* min-height: 700px; */
-  /* max-width:700px; */
-}
-
-/* .label {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-
-
 body,
 html {
   height: 100%;
@@ -101,7 +67,9 @@ html {
   font-family: 'Open Sans', sans-serif;
 
 }
-
+.poopGround{
+  display: none;
+}
 
 h3 {
   font-family: 'Open Sans', sans-serif;
@@ -127,7 +95,6 @@ h3 {
 
 .shoeGif {
   padding-top: 10px;
-  /* height: 667px; */
   text-align: center;
   border-radius: 24px;
   margin: 10px;
@@ -152,10 +119,10 @@ h3 {
 
 #projectShit {
   padding: 50px;
-  /* width: 100%; */
-  /* height: 100%; */
-  /* display: flex;
-  flex-wrap: wrap; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .gitLink {
@@ -166,44 +133,39 @@ h3 {
   opacity: 0.8;
   filter: alpha(opacity=50);
 }
-h3{
-  font-size:25px;
-}
-h5{
-  font-size: 19px;
-}
-p{
-  font-size: 12px;
-}
 
 .tech {
   padding: 15px;
   font-family: 'Open Sans', sans-serif;
 }
 @media only screen and (max-width: 700px) {
-  .VueCarousel-slide{
-    height: auto;
-    /* display: none; */
-    /* margin-top: -10px; */
-    /* max-width: 600px; */
-    /* width: 400px;
-
-    max-height: 700px; */
-    /* width: auto; */
-  }
   .backgroundImg {
     display: none;
   }
   .techPic{
-    height: 20px;
-    width: 20px;
+    height: 35px;
+  }
+  .bottomPic{
+    height: 25px;
+  }
+  h3{
+    font-size: 23px;
+  }
+  h5{
+    font-size: 23px;
+
+  }
+  .newGif{
+    background-image: url("../assets/floor.jpeg");
+
   }
   #projectShit {
-    /* height: 100%;
-    width: auto; */
+    height: 100%;
+    width: auto;
     align-items: center;
-    /* margin-left: -20px; */
-    margin-top: -55px;
+    margin-left: -14px;
+    overflow: auto;
+max-height: 100vh;
     /* background-image: url("../assets/floor.jpeg"); */
   }
   .shoeGif {
@@ -222,15 +184,6 @@ p{
     /* background-image: url("../assets/floor.jpeg"); */
 
   }
-  /* .poopGround{
-    display: inline-block;
-    display: block;
-    align-items: center;
-    height: auto;
-    margin-left:-37px;
-    width: 90%;
-
-  } */
   .gif {
     width: 290px;
     height: auto;
@@ -239,8 +192,6 @@ p{
   }
   .newGif {
     display: inline-block;
-    max-height: 700px;
-
     background: rgba(44, 50, 56, 0.8);
 
   }
