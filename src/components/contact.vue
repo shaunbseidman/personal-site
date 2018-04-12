@@ -92,6 +92,8 @@ button:hover{
     background: rgba(44, 50, 56, 0.8);
     width: 350px;
   }
-
+  button{
+    color: white;
+  }
 }
 </style>

@@ -143,7 +143,7 @@ h3 {
     display: none;
   }
   .techPic{
-    height: 35px;
+    height: 30px;
   }
   .bottomPic{
     height: 25px;
@@ -160,12 +160,14 @@ h3 {
 
   }
   #projectShit {
+    margin-top: -30px;
     height: 100%;
     width: auto;
     align-items: center;
     margin-left: -14px;
-    overflow: auto;
-max-height: 100vh;
+    overflow-y: auto;
+    overflow: scroll;
+    max-height: 100vh;
     /* background-image: url("../assets/floor.jpeg"); */
   }
   .shoeGif {

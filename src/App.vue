@@ -193,7 +193,7 @@ li:hover {
   .backgroundImg {
   }
   #linkListItem{
-    font-size: 10px;
+    font-size: 10.1px;
     display: inline-block;
   }
   #logo{
@@ -213,7 +213,7 @@ li:hover {
     flex-wrap: wrap-reverse;
   }
   .table{
-    background-color: black;
+    background-color:black;
   }
 }
 
