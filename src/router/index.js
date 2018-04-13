@@ -7,9 +7,12 @@ import who from '@/components/who'
 import projects from '@/components/projects'
 import splash from '@/components/splash'
 import headShit from '@/components/headShit'
+import BootstrapVue from 'bootstrap-vue'
+
 // import Vue from 'vue';
 import VueCarousel from 'vue-carousel';
 Vue.use(VueCarousel);
+Vue.use(BootstrapVue);
 
 Vue.component('footerStuff', footerStuff)
 Vue.component('contact', contact)

@@ -7,7 +7,37 @@
         with others and also instill a never-quit attitude. <br><br>I would love to establish myself in the web development world and believe my skills, as well as my willingness to learn, would make me a great candidate for a junior dev position. <br><br>Please
         feel free to take a look at my resume below.<br> I look forward to talking and hopefully working together.
       </p><br>
-      <a href="https://github.com/shaunbseidman/resume/blob/master/res.pdf"><img class = 'linkImages' id='img2' src="../assets/res.png" alt="git"></a>
+
+
+
+
+
+
+      <div>
+      <b-button @click="showModal">
+        Resume
+      </b-button>
+      <b-modal id="modallg" size="lg" v-b-modal.modallg variant="primary" ref="myModalRef" hide-footer>
+        <div id='modalText' class="d-block text-center">
+
+          <a href="https://drive.google.com/file/d/1HXEnGaDENhbT4ay98wwoSGmy-IZ-aA3i/view?usp=sharing"></a>
+          <img class = 'resume' src="../assets/resume.png" alt="">
+        </div>
+        <b-btn class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-btn>
+      </b-modal>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+      <!-- <a href="https://github.com/shaunbseidman/resume/blob/master/res.pdf"><img class = 'linkImages' id='img2' src="../assets/res.png" alt="git"></a> -->
     </div>
   </div>
 </div>
@@ -18,20 +48,40 @@ export default {
   data() {
     return {}
   },
-  methods: {}
+  methods: {
+  showModal () {
+    this.$refs.myModalRef.show()
+  },
+  hideModal () {
+    this.$refs.myModalRef.hide()
+  }
+}
 }
 </script>
 <style scoped>
+/* @import 'bootstrap/dist/css/bootstrap.css'
+@import 'bootstrap-vue/dist/bootstrap-vue.css' */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 body {
   height: 100%;
   width: 100%;
 }
-
+#modalText{
+  /* height: 800px;
+  width: 700px; */
+}
 html {
   height: 100%;
   width: 100%;
+}
+.resume{
+  height: 690px;
+  width: 500px;
+}
+#modallg___BV_modal_body_.modal-body{
+height: 5000px; !important
+  width: 4000px;
 }
 
 p {
