@@ -7,6 +7,7 @@
         with others and also instill a never-quit attitude. <br><br>I would love to establish myself in the web development world and believe my skills, as well as my willingness to learn, would make me a great candidate for a junior dev position. <br><br>Please
         feel free to take a look at my resume below.<br> I look forward to talking and hopefully working together.
       </p><br>
+      <a href="https://github.com/shaunbseidman/resume"><img class = 'resPic' src="../assets/res.png" alt=""></a>
 
 
       <!-- <a href="https://github.com/shaunbseidman/resume/blob/master/res.pdf"><img class = 'linkImages' id='img2' src="../assets/res.png" alt="git"></a> -->
@@ -20,9 +21,9 @@
         <a href="https://drive.google.com/file/d/1HXEnGaDENhbT4ay98wwoSGmy-IZ-aA3i/view?usp=sharing"></a>
         <img class = 'resume' src="../assets/resume.png" alt="">
       </div>
-      <b-btn class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-btn>
     </b-modal>
   </div>
+
   </div>
 
 </div>
@@ -44,27 +45,26 @@ export default {
 }
 </script>
 <style scoped>
-/* @import 'bootstrap/dist/css/bootstrap.css'
-@import 'bootstrap-vue/dist/bootstrap-vue.css' */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 body {
   height: 100%;
   width: 100%;
 }
-#modalText{
-  /* height: 800px;
-  width: 700px; */
-}
+
 html {
   height: 100%;
   width: 100%;
 }
 .resume{
-  height: 770px;
-  width: 520px;
+  height: 630px;
+  width: 480px;
 }
 
+.resPic{
+  display: none;
+}
 
 p {
   font-family: 'Open Sans', sans-serif;
@@ -81,21 +81,18 @@ p {
   position: absolute;
 }
 .res{
-  /* margin-top: 200px; */
   padding: 400px;
-  /* padding: 20px; */
-  /* border-radius: 24px; */
   /* background: rgba(191, 191, 191, 0.43); */
   text-align: center;
   position: absolute;
-  top: 72%;
+  top: 64%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white
 }
 #aboutMe {
   margin: 0 auto;
-  padding: 20px;
+  padding: 25px;
   border-radius: 24px;
   background: rgba(191, 191, 191, 0.43);
   text-align: center;
@@ -117,6 +114,12 @@ p {
     text-align: center;
     align-items: center;
   }
+  .resPic{
+    display: grid;
+    /* text-align: center; */
+    /* position: absolute; */
+
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -124,7 +127,13 @@ p {
     display: none;
   }
   .res{
-    top: 90%;
+    display: none;
+  }
+  .resPic{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    left: 50%;
   }
   #aboutMe {
     margin-top: 50px;
