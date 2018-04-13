@@ -49,14 +49,14 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 body {
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
-html {
+/* html {
   height: 100%;
   width: 100%;
-}
+} */
 .resume{
   height: 630px;
   width: 480px;

@@ -2,17 +2,17 @@
 <div id="app" class="animated fadeIn">
   <div class="table">
     <div class="leftLinks">
-    <router-link :to="{name: 'splash'}">
-      <img id='logo' src="./assets/SSLogo 2.png" alt="">
-    </router-link>
-    <ul id='linkList'>
-      <router-link :to="{name: 'who'}">
-        <li id='linkListItem'>About Shaun</li>
+      <router-link :to="{name: 'splash'}">
+        <img id='logo' src="./assets/SSLogo 2.png" alt="">
       </router-link>
-      <router-link :to="{name: 'projects'}">
-        <li id='linkListItem'>Projects</li>
-      </router-link>
-    </ul>
+      <ul id='linkList'>
+        <router-link :to="{name: 'who'}">
+          <li id='linkListItem'>About Shaun</li>
+        </router-link>
+        <router-link :to="{name: 'projects'}">
+          <li id='linkListItem'>Projects</li>
+        </router-link>
+      </ul>
 
     </div>
     <div class="link2shit">
@@ -24,12 +24,10 @@
       <a href="https://www.linkedin.com/in/shaun-seidman/"><img class = 'linkImages' id='img2' src="./assets/linked.png" alt=""></a>
       <a href="http://www.instagram.com/youth.and.lust"><img class = 'linkImages' id='img2' src="./assets/ig.png" alt=""></a>
       <a href="http://www.twitter.com/wangchung2nite_"><img class = 'linkImages' id='img2' src="./assets/twitter.png" alt=""></a>
-      <!-- </div> -->
 
     </div>
   </div>
   <router-view/>
-<!-- </nav> -->
 </div>
 </template>
 
@@ -50,53 +48,120 @@ export default {
 </script>
 
 <style scoped>
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 #app {
+  height: 100vh;
+  overflow-y: hidden;
   font-family: 'Lato', sans-serif;
   width: 100%;
-  height: 100vh;
   position: absolute;
+
 }
 
 body {
-  height: 100%;
+  height: 100vh;
   width: 100%;
+  overflow-y: hidden;
 }
 
 html {
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
 .table {
   display: flex;
   justify-content: space-between;
-  /* list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-  position: relative; */
-  /* justify-content: space-between; */
-
 }
 
 .linkImages {
@@ -117,22 +182,19 @@ html {
 
 .link2shit {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   align-items: flex-end;
   padding-bottom: 12px;
   padding-right: 15px;
-
-  /* margin-right: 10px;
-  position: relative; */
-
 }
 
-.leftLinks{
+.leftLinks {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
 
 }
+
 .linkImages:hover {
   animation: shake 0.5s;
   animation-iteration-count: 1s;
@@ -144,7 +206,7 @@ html {
   text-align: center;
   padding: 20px;
   display: block;
-  color: #9e9898;
+  color: white;
   text-decoration: none;
 }
 
@@ -158,6 +220,10 @@ li:hover {
   transition-duration: 0.4s;
   opacity: 0.3;
   background-color: rgba(0, 255, 255, 0.3);
+  background: -webkit-linear-gradient(black,rgb(124, 139, 140));
+  background: -o-linear-gradient(black,rgb(124, 139, 140));
+  background: -moz-linear-gradient(black,#5B798E);
+  background: linear-gradient(black,#5B798E);
   opacity: 0.6;
   cursor: pointer;
 }
@@ -180,9 +246,10 @@ li:hover {
   }
 
 }
+
 @media only screen and (max-width: 900px) {
-  #app{
-    background-image:url("./assets/pic2.jpeg");
+  #app {
+    background-image: url("./assets/pic2.jpeg");
     opacity: 0.6;
     background-position: center;
     background-repeat: no-repeat;
@@ -190,16 +257,13 @@ li:hover {
     position: absolute;
   }
 
-  .backgroundImg {
-  }
-  #linkListItem{
+  .backgroundImg {}
+  #linkListItem {
     font-size: 10.1px;
     display: inline-block;
   }
-  #logo{
-
-  }
-  .linkImages{
+  #logo {}
+  .linkImages {
     margin-top: 10px;
     height: 14px;
   }
@@ -212,30 +276,27 @@ li:hover {
     align-items: flex-start;
     flex-wrap: wrap-reverse;
   }
-  .table{
-    background-color:black;
-    /* position: relative; */
-
+  .table {
+    background-color: black;
   }
 }
+
 @media only screen and (max-width: 1400px) {
   .backgroundImg {
     display: none;
   }
-    #app{
-      background-image:url("./assets/pic2.jpeg");
-      opacity: 0.6;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: absolute;
-    }
-    .table{
-      background-color:black;
-    }
-
-
+  #app {
+    background-image: url("./assets/pic2.jpeg");
+    opacity: 0.6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  .table {
+    background-color: black;
+  }
 }
-
-
 </style>

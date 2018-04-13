@@ -39,7 +39,7 @@ export default {
 
 body,
 html {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
 
@@ -95,5 +95,14 @@ button:hover{
   button{
     color: white;
   }
+}
+@media only screen and (max-width: 1400px) {
+.backgroundImg{
+    display: none;
+  }
+#contactForm{
+  background: rgba(44, 50, 56, 0.8);
+
+}
 }
 </style>

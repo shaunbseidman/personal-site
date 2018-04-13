@@ -1,7 +1,6 @@
 <template>
 <div class="animated fadeIn" id="splash">
   <img src="../assets/pic.jpeg" alt="">
-  <!-- <img class='mobilePic' src="../assets/pic2.jpeg" alt=""> -->
   <div class="hero-text">
     <div class="textBox">
     <h1>Shaun Seidman</h1>
@@ -24,13 +23,16 @@ export default {
 </script>
 <style scoped >
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+#splash{
+  height: 100vh;
 
+}
 body{
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 html {
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 h1,
@@ -42,7 +44,7 @@ h4{
 }
 img {
   opacity: 0.6;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,10 +78,11 @@ img {
   color: white;
 }
 @media only screen and (max-width: 900px) {
-  #splash{
 
-    /* background-image: url("../assets/pic2.jpeg"); */
-
+  body {
+    height: 90vh;
+    width: 100%;
+    overflow-y: hidden;
   }
   /* .mobilePic{
     display: block;
