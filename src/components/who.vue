@@ -9,37 +9,22 @@
       </p><br>
 
 
-
-
-
-
-      <div>
-      <b-button @click="showModal">
-        Resume
-      </b-button>
-      <b-modal id="modallg" size="lg" v-b-modal.modallg variant="primary" ref="myModalRef" hide-footer>
-        <div id='modalText' class="d-block text-center">
-
-          <a href="https://drive.google.com/file/d/1HXEnGaDENhbT4ay98wwoSGmy-IZ-aA3i/view?usp=sharing"></a>
-          <img class = 'resume' src="../assets/resume.png" alt="">
-        </div>
-        <b-btn class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-btn>
-      </b-modal>
-
-
-
-
-
-
-    </div>
-
-
-
-
-
       <!-- <a href="https://github.com/shaunbseidman/resume/blob/master/res.pdf"><img class = 'linkImages' id='img2' src="../assets/res.png" alt="git"></a> -->
     </div>
+    <div class = 'res'>
+    <b-button @click="showModal">
+      Resume
+    </b-button>
+    <b-modal id="modallg" size="lg" v-b-modal.modallg variant="primary" ref="myModalRef" hide-footer>
+      <div id='modalText' class="d-block text-center">
+        <a href="https://drive.google.com/file/d/1HXEnGaDENhbT4ay98wwoSGmy-IZ-aA3i/view?usp=sharing"></a>
+        <img class = 'resume' src="../assets/resume.png" alt="">
+      </div>
+      <b-btn class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-btn>
+    </b-modal>
   </div>
+  </div>
+
 </div>
 </template>
 <script>
@@ -76,13 +61,10 @@ html {
   width: 100%;
 }
 .resume{
-  height: 690px;
-  width: 500px;
+  height: 770px;
+  width: 520px;
 }
-#modallg___BV_modal_body_.modal-body{
-height: 5000px; !important
-  width: 4000px;
-}
+
 
 p {
   font-family: 'Open Sans', sans-serif;
@@ -98,7 +80,19 @@ p {
   background-size: 100% 100%;
   position: absolute;
 }
-
+.res{
+  /* margin-top: 200px; */
+  padding: 400px;
+  /* padding: 20px; */
+  /* border-radius: 24px; */
+  /* background: rgba(191, 191, 191, 0.43); */
+  text-align: center;
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white
+}
 #aboutMe {
   margin: 0 auto;
   padding: 20px;
@@ -123,12 +117,14 @@ p {
     text-align: center;
     align-items: center;
   }
-
 }
 
 @media only screen and (max-width: 1400px) {
   .backgroundImg {
     display: none;
+  }
+  .res{
+    top: 90%;
   }
   #aboutMe {
     margin-top: 50px;
