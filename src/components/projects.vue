@@ -4,7 +4,6 @@
 
   <div class="animated fadeIn" id="projectShit">
     <div class="shoeGif">
-
       <h3>What's it Worth</h3>
       <img class='gif' src="../assets/gif2.gif" alt="">
       <div class="tech">
