@@ -9,7 +9,7 @@
       </p><br>
       <div class='res'>
         <b-button @click="showModal">
-          Resume
+          View Resume
         </b-button>
         <b-modal id="modallg" size="lg" v-b-modal.modallg variant="primary" ref="myModalRef" hide-footer>
           <div id='modalText' class="d-block text-center">
@@ -20,17 +20,6 @@
       </div>
       <a href="https://github.com/shaunbseidman/resume"><img class = 'resPic' src="../assets/res.png" alt=""></a>
     </div>
-    <!-- <div class='res'>
-      <b-button @click="showModal">
-        Resume
-      </b-button>
-      <b-modal id="modallg" size="lg" v-b-modal.modallg variant="primary" ref="myModalRef" hide-footer>
-        <div id='modalText' class="d-block text-center">
-          <a href="https://drive.google.com/file/d/1HXEnGaDENhbT4ay98wwoSGmy-IZ-aA3i/view?usp=sharing"></a>
-          <img class='resume' src="../assets/resume.png" alt="">
-        </div>
-      </b-modal>
-    </div> -->
 
   </div>
 
@@ -107,7 +96,7 @@ p {
   color: white;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .backgroundImg {
     display: none;
   }
@@ -115,7 +104,7 @@ p {
     font-size: 16px;
   }
   .resume {
-    height: 492px;
+    height: 530px;
     width: 317px;
   }
   #aboutMe {
@@ -126,13 +115,7 @@ p {
     opacity: 7;
     text-align: center;
     align-items: center
-    /* display: block; */
-    /* margin-top: 50px;
-    background: rgba(44, 50, 56, 0.8);
-    opacity: 7;
-    width: 300px;
-    text-align: center;
-    align-items: center; */
+
   }
   .resPic {
     /* display: grid; */
@@ -147,25 +130,12 @@ p {
     /* display: none; */
   }
   .resume {
-    height: 830px;
-    width: 480px;
-  }
-  .resPic {
-    /* text-align: center;
-    position: relative; */
-    /* top: 30%;
-    left: 50%; */
+    /* height: 830px;
+    width: 480px; */
   }
   #aboutMe {
     background: rgba(44, 50, 56, 0.8);
     margin-top: 50px;
-
-    /* margin-top: 50px;
-    background: rgba(44, 50, 56, 0.8);
-    opacity: 7;
-    width: 300px;
-    text-align: center;
-    align-items: center; */
   }
 
 }

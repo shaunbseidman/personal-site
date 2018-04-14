@@ -1,8 +1,48 @@
 <template>
 <div id="projects">
   <img class='backgroundImg' src="../assets/pic.jpeg" alt="">
-
-  <div class="animated fadeIn" id="projectShit">
+  <div class="photoScroll animated fadeIn">
+  <carousel>
+  <slide>
+    <div class="shaunPic">
+      <h3>This</h3>
+      <img class='gif2' src="../assets/ss.png" alt="">
+      <div class="tech">
+        <h5>Technologies Used</h5>
+        <img class='techPic' src="../assets/logo.png" alt="">
+        <img class='techPic' src="../assets/boot.png" alt="">
+        <img class='techPic' src="../assets/js.png" alt="">
+        <img class='techPic' src="../assets/css.png" alt="">
+        <img class='techPic' src="../assets/node.png" alt="">
+        <img class='techPic' src="../assets/aws.png" alt="">
+        <img class='techPic' src="../assets/cypress.png" alt="">
+        <p>Woah....website inception</p><br><p>My personal website, made using Vue.Js, hosted on Amazon S3 with Route 53 and CloudFront</p>
+        <a class='gitLink' href="https://github.com/shaunbseidman/personal-site"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+      </div>
+    </div>
+  </slide>
+  <slide>
+    <div class="newGif">
+      <h3>Fridgely</h3>
+      <img class='gif2' src="../assets/fridge.gif" alt="">
+      <div class="tech">
+        <h5>Technologies Used</h5>
+        <img class='techPic' src="../assets/react.png" alt="">
+        <img class='techPic' src="../assets/swift.png" alt="">
+        <img class='techPic' src="../assets/js.png" alt="">
+        <img class='techPic' src="../assets/css.png" alt="">
+        <img class='techPic' src="../assets/post.png" alt="">
+        <img class='techPic' src="../assets/node.png" alt="">
+        <img class='techPic' src="../assets/jest.png" alt="">
+        <img class='techPic' src="../assets/aws.png" alt="">
+        <p>A collaborative group project implementing React Native, Clarafi image recognition and Amazon Web Services S3 image hosting. My role in this project was to create the back-end Express server, create the Knex database as well as help post the images
+          taken from the iPhone’s native camera to an S3 bucket. Fridgely was created with the intent to scan an item in your fridge, take a photo and send it off to the image recognition API and then return a list of recipes based on the food item that
+          was scanned.</p>
+        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+      </div>
+    </div>
+  </slide>
+  <slide>
     <div class="shoeGif">
       <h3>What's it Worth</h3>
       <img class='gif' src="../assets/gif2.gif" alt="">
@@ -20,8 +60,43 @@
         <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
-    <div class="poopGround">
-      <img src="../assets/floor.jpeg" alt="">
+  </slide>
+  <slide>
+    <div class="shaunPic">
+      <h3>CAPSTONE...coming soon</h3>
+      <!-- <img class='gif2' src="../assets/ss.png" alt="">
+      <div class="tech">
+        <h5>Technologies Used</h5>
+        <img class='techPic' src="../assets/logo.png" alt="">
+        <img class='techPic' src="../assets/boot.png" alt="">
+        <img class='techPic' src="../assets/js.png" alt="">
+        <img class='techPic' src="../assets/css.png" alt="">
+        <img class='techPic' src="../assets/node.png" alt="">
+        <img class='techPic' src="../assets/aws.png" alt="">
+        <img class='techPic' src="../assets/cypress.png" alt="">
+        <p>Woah....website inception</p><br><p>My personal website, made using Vue.Js, hosted on Amazon S3 with Route 53 and CloudFront</p>
+        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+      </div> -->
+    </div>
+  </slide>
+</carousel>
+</div>
+  <div class="animated fadeIn" id="projectShit">
+    <div class="shaunPic">
+      <h3>This</h3>
+      <img class='gif2' src="../assets/ss.png" alt="">
+      <div class="tech">
+        <h5>Technologies Used</h5>
+        <img class='techPic' src="../assets/logo.png" alt="">
+        <img class='techPic' src="../assets/boot.png" alt="">
+        <img class='techPic' src="../assets/js.png" alt="">
+        <img class='techPic' src="../assets/css.png" alt="">
+        <img class='techPic' src="../assets/node.png" alt="">
+        <img class='techPic' src="../assets/aws.png" alt="">
+        <img class='techPic' src="../assets/cypress.png" alt="">
+        <p>Woah....website inception</p><br><p>My personal website, made using Vue.Js, hosted on Amazon S3 with Route 53 and CloudFront</p>
+        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+      </div>
     </div>
     <div class="newGif">
       <h3>Fridgely</h3>
@@ -42,6 +117,39 @@
         <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
+    <div class="shoeGif">
+      <h3>What's it Worth</h3>
+      <img class='gif' src="../assets/gif2.gif" alt="">
+      <div class="tech">
+        <h5>Technologies Used</h5>
+        <img class='techPic' src="../assets/logo.png" alt="">
+        <img class='techPic' src="../assets/cypress.png" alt="">
+        <img class='techPic' src="../assets/js.png" alt="">
+        <img class='techPic' src="../assets/css.png" alt="">
+        <img class='techPic' src="../assets/post.png" alt="">
+        <img class='techPic' src="../assets/node.png" alt="">
+        <img class='techPic' src="../assets/boot.png" alt="">
+        <p>A fun and simple web app that tracks the retail and resell prices for sneakers. Using the chart.js library, it creates an easy to read comparison chart which shows whether the price has gone up or down from the suggested retail price. </p>
+        <a class='gitLink' href="http://cute-middle.surge.sh/#/"><img class = 'bottomPic' src="../assets/link.png" alt=""></a>
+        <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+      </div>
+    </div>
+    <div class="shaunPic">
+      <h3>CAPSTONE...coming soon</h3>
+      <!-- <img class='gif2' src="../assets/ss.png" alt="">
+      <div class="tech">
+        <h5>Technologies Used</h5>
+        <img class='techPic' src="../assets/logo.png" alt="">
+        <img class='techPic' src="../assets/boot.png" alt="">
+        <img class='techPic' src="../assets/js.png" alt="">
+        <img class='techPic' src="../assets/css.png" alt="">
+        <img class='techPic' src="../assets/node.png" alt="">
+        <img class='techPic' src="../assets/aws.png" alt="">
+        <img class='techPic' src="../assets/cypress.png" alt="">
+        <p>Woah....website inception</p><br><p>My personal website, made using Vue.Js, hosted on Amazon S3 with Route 53 and CloudFront</p>
+        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+      </div> -->
+    </div>
   </div>
 
 
@@ -54,23 +162,34 @@ export default {
     return {
       projectOpen: false
     }
+  },
+  methods: {
+
+
   }
 }
 </script>
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
+
+.VueCarousel-slide {
+  background: rgba(191, 191, 191, 0.43);
+  text-align: center;
+}
+.label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 body,
 html {
   height: 100%;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
-
 }
 
-.poopGround {
-  display: none;
-}
 
 h3 {
   font-family: 'Open Sans', sans-serif;
@@ -100,30 +219,38 @@ h3 {
   border-radius: 24px;
   margin: 10px;
   color: white;
-  background: rgba(191, 191, 191, 0.43);
+  /* background: rgba(191, 191, 191, 0.43); */
 }
 
 .newGif {
   padding-top: 10px;
-  border-color: rgba(191, 191, 191, 0.43);
   text-align: center;
   border-radius: 24px;
   margin: 10px;
   color: white;
-  background: rgba(191, 191, 191, 0.43);
+  /* background: rgba(191, 191, 191, 0.43); */
+}
+
+.shaunPic {
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 24px;
+  margin: 10px;
+  color: white;
+  /* background: rgba(191, 191, 191, 0.43); */
 }
 
 #projectShit>div {
-  flex: 1;
+  /* flex: 1; */
   /* min-width: 290px; */
 }
 
 #projectShit {
-  padding: 20px;
+  /* padding: 20px;
   width: 100%;
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 
 .gitLink {
@@ -141,6 +268,9 @@ h3 {
 }
 
 @media only screen and (max-width: 700px) {
+  .photoScroll{
+    display: none;
+  }
   .backgroundImg {
     display: none;
   }
@@ -158,8 +288,7 @@ h3 {
   }
 
   #projectShit {
-    /* margin-top: -30px; */
-
+    margin-top: -30px;
     margin-left: -16px;
     align-items: center;
     overflow-y: auto;
@@ -172,10 +301,11 @@ h3 {
   .shoeGif {
     display: inline-block;
     background: rgba(44, 50, 56, 0.8);
+    /* margin-left: 55px;
     width: 300px;
     text-align: center;
     display: inline-block;
-    align-items: center;
+    align-items: center; */
   }
   .gif2 {
     width: 290px;
@@ -193,6 +323,10 @@ h3 {
     display: inline-block;
     background: rgba(44, 50, 56, 0.8);
   }
+  .shaunPic {
+    display: inline-block;
+    background: rgba(44, 50, 56, 0.8);
+  }
   #projects {
     align-items: center;
     /* position: relative; */
@@ -200,6 +334,9 @@ h3 {
 }
 
 @media only screen and (max-width: 1400px) {
+  .photoScroll{
+    display: none;
+  }
   .backgroundImg {
     display: none;
   }
@@ -216,15 +353,12 @@ h3 {
     font-size: 23px;
 
   }
-  .newGif {
-    background-image: url("../assets/floor.jpeg");
 
-  }
   #projectShit {
-    /* margin-top: -30px; */
+    margin-top: -5px;
     max-height: 100%;
     width: auto;
-    margin-left: -16px;
+    /* margin-left: -16px; */
     align-items: center;
     overflow-y: auto;
     overflow: scroll;
@@ -235,10 +369,10 @@ h3 {
   .shoeGif {
     display: inline-block;
     background: rgba(44, 50, 56, 0.8);
-    width: 300px;
+    /* width: 300px;
     text-align: center;
     display: inline-block;
-    align-items: center;
+    align-items: center; */
   }
   .gif2 {
     width: 290px;
@@ -255,7 +389,10 @@ h3 {
   .newGif {
     display: inline-block;
     background: rgba(44, 50, 56, 0.8);
-
+  }
+  .shaunPic {
+    display: inline-block;
+    background: rgba(44, 50, 56, 0.8);
   }
   #projects {
     align-items: center;
