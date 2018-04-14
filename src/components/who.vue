@@ -7,22 +7,30 @@
         with others and also instill a never-quit attitude. <br><br>I would love to establish myself in the web development world and believe my skills, as well as my willingness to learn, would make me a great candidate for a junior dev position. <br><br>Please
         feel free to take a look at my resume below.<br> I look forward to talking and hopefully working together.
       </p><br>
-      <a href="https://github.com/shaunbseidman/resume"><img class = 'resPic' src="../assets/res.png" alt=""></a>
-
-
-      <!-- <a href="https://github.com/shaunbseidman/resume/blob/master/res.pdf"><img class = 'linkImages' id='img2' src="../assets/res.png" alt="git"></a> -->
-    </div>
-    <div class = 'res'>
-    <b-button @click="showModal">
-      Resume
-    </b-button>
-    <b-modal id="modallg" size="lg" v-b-modal.modallg variant="primary" ref="myModalRef" hide-footer>
-      <div id='modalText' class="d-block text-center">
-        <a href="https://drive.google.com/file/d/1HXEnGaDENhbT4ay98wwoSGmy-IZ-aA3i/view?usp=sharing"></a>
-        <img class = 'resume' src="../assets/resume.png" alt="">
+      <div class='res'>
+        <b-button @click="showModal">
+          Resume
+        </b-button>
+        <b-modal id="modallg" size="lg" v-b-modal.modallg variant="primary" ref="myModalRef" hide-footer>
+          <div id='modalText' class="d-block text-center">
+            <a href="https://drive.google.com/file/d/1HXEnGaDENhbT4ay98wwoSGmy-IZ-aA3i/view?usp=sharing"></a>
+            <img class='resume' src="../assets/resume.png" alt="">
+          </div>
+        </b-modal>
       </div>
-    </b-modal>
-  </div>
+      <a href="https://github.com/shaunbseidman/resume"><img class = 'resPic' src="../assets/res.png" alt=""></a>
+    </div>
+    <!-- <div class='res'>
+      <b-button @click="showModal">
+        Resume
+      </b-button>
+      <b-modal id="modallg" size="lg" v-b-modal.modallg variant="primary" ref="myModalRef" hide-footer>
+        <div id='modalText' class="d-block text-center">
+          <a href="https://drive.google.com/file/d/1HXEnGaDENhbT4ay98wwoSGmy-IZ-aA3i/view?usp=sharing"></a>
+          <img class='resume' src="../assets/resume.png" alt="">
+        </div>
+      </b-modal>
+    </div> -->
 
   </div>
 
@@ -35,17 +43,16 @@ export default {
     return {}
   },
   methods: {
-  showModal () {
-    this.$refs.myModalRef.show()
-  },
-  hideModal () {
-    this.$refs.myModalRef.hide()
+    showModal() {
+      this.$refs.myModalRef.show()
+    },
+    hideModal() {
+      this.$refs.myModalRef.hide()
+    }
   }
-}
 }
 </script>
 <style scoped>
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 body {
@@ -53,24 +60,20 @@ body {
   width: 100%;
 }
 
-/* html {
-  height: 100%;
-  width: 100%;
-} */
-.resume{
-  height: 630px;
-  width: 480px;
+.resume {
+  height: 980px;
+  width: 680px;
 }
 
-.resPic{
+.resPic {
   display: none;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 19px;
 }
-
-
 .backgroundImg {
   opacity: 0.2;
   height: 100%;
@@ -80,19 +83,20 @@ p {
   background-size: 100% 100%;
   position: absolute;
 }
-.res{
+
+/* .res {
   padding: 400px;
-  /* background: rgba(191, 191, 191, 0.43); */
   text-align: center;
   position: absolute;
   top: 64%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white
-}
+} */
+
 #aboutMe {
   margin: 0 auto;
-  padding: 25px;
+  padding: 40px;
   border-radius: 24px;
   background: rgba(191, 191, 191, 0.43);
   text-align: center;
@@ -102,23 +106,36 @@ p {
   transform: translate(-50%, -50%);
   color: white;
 }
+
 @media only screen and (max-width: 700px) {
   .backgroundImg {
     display: none;
   }
+  p{
+    font-size: 16px;
+  }
+  .resume {
+    height: 492px;
+    width: 317px;
+  }
   #aboutMe {
-    margin-top: 50px;
+    background: rgba(44, 50, 56, 0.8);
+    display: inline-grid;
+    height:610px;
+    width: 350px;
+    opacity: 7;
+    text-align: center;
+    align-items: center
+    /* display: block; */
+    /* margin-top: 50px;
     background: rgba(44, 50, 56, 0.8);
     opacity: 7;
     width: 300px;
     text-align: center;
-    align-items: center;
+    align-items: center; */
   }
-  .resPic{
-    display: grid;
-    /* text-align: center; */
-    /* position: absolute; */
-
+  .resPic {
+    /* display: grid; */
   }
 }
 
@@ -126,22 +143,29 @@ p {
   .backgroundImg {
     display: none;
   }
-  .res{
-    display: none;
+  .res {
+    /* display: none; */
   }
-  .resPic{
-    text-align: center;
-    position: relative;
-    top: 30%;
-    left: 50%;
+  .resume {
+    height: 830px;
+    width: 480px;
+  }
+  .resPic {
+    /* text-align: center;
+    position: relative; */
+    /* top: 30%;
+    left: 50%; */
   }
   #aboutMe {
+    background: rgba(44, 50, 56, 0.8);
     margin-top: 50px;
+
+    /* margin-top: 50px;
     background: rgba(44, 50, 56, 0.8);
     opacity: 7;
     width: 300px;
     text-align: center;
-    align-items: center;
+    align-items: center; */
   }
 
 }

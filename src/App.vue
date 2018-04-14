@@ -162,6 +162,7 @@ html {
 .table {
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .linkImages {
@@ -278,6 +279,7 @@ li:hover {
   }
   .table {
     background-color: black;
+    z-index: 1;
   }
 }
 

@@ -115,7 +115,7 @@ h3 {
 
 #projectShit>div {
   flex: 1;
-  min-width: 290px;
+  /* min-width: 290px; */
 }
 
 #projectShit {
@@ -158,15 +158,16 @@ h3 {
   }
 
   #projectShit {
-    margin-top: -30px;
-    max-height: 100%;
-    width: auto;
+    /* margin-top: -30px; */
+
     margin-left: -16px;
     align-items: center;
     overflow-y: auto;
     overflow: scroll;
     max-height: 20vh;
     position: relative;
+    margin-right: -20px;
+    z-index: 4;
   }
   .shoeGif {
     display: inline-block;
@@ -191,11 +192,10 @@ h3 {
   .newGif {
     display: inline-block;
     background: rgba(44, 50, 56, 0.8);
-
   }
   #projects {
     align-items: center;
-    position: relative;
+    /* position: relative; */
   }
 }
 
@@ -221,7 +221,7 @@ h3 {
 
   }
   #projectShit {
-    margin-top: -30px;
+    /* margin-top: -30px; */
     max-height: 100%;
     width: auto;
     margin-left: -16px;
@@ -230,6 +230,7 @@ h3 {
     overflow: scroll;
     max-height: 90vh;
     position: relative;
+    z-index: 4;
   }
   .shoeGif {
     display: inline-block;
