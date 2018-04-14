@@ -5,7 +5,7 @@
   <carousel>
   <slide>
     <div class="shaunPic">
-      <h3>This</h3>
+      <h3>This.</h3>
       <img class='gif2' src="../assets/ss.png" alt="">
       <div class="tech">
         <h5>Technologies Used</h5>
@@ -83,7 +83,7 @@
 </div>
   <div class="animated fadeIn" id="projectShit">
     <div class="shaunPic">
-      <h3>This</h3>
+      <h3>This.</h3>
       <img class='gif2' src="../assets/ss.png" alt="">
       <div class="tech">
         <h5>Technologies Used</h5>
@@ -134,7 +134,7 @@
         <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
-    <div class="shaunPic">
+    <div class="capstone">
       <h3>CAPSTONE...coming soon</h3>
       <!-- <img class='gif2' src="../assets/ss.png" alt="">
       <div class="tech">
@@ -171,7 +171,6 @@ export default {
 </script>
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-
 
 .VueCarousel-slide {
   background: rgba(191, 191, 191, 0.43);
@@ -211,8 +210,6 @@ h3 {
   position: absolute;
 }
 
-#projects {}
-
 .shoeGif {
   padding-top: 10px;
   text-align: center;
@@ -230,7 +227,13 @@ h3 {
   color: white;
   /* background: rgba(191, 191, 191, 0.43); */
 }
-
+.capstone{
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 24px;
+  margin: 10px;
+  color: white;
+}
 .shaunPic {
   padding-top: 10px;
   text-align: center;
@@ -246,6 +249,8 @@ h3 {
 }
 
 #projectShit {
+  /* visibility: hidden; */
+  display: none;
   /* padding: 20px;
   width: 100%;
   height: 100%;
@@ -288,6 +293,7 @@ h3 {
   }
 
   #projectShit {
+    display: block;
     margin-top: -30px;
     margin-left: -16px;
     align-items: center;
@@ -327,6 +333,10 @@ h3 {
     display: inline-block;
     background: rgba(44, 50, 56, 0.8);
   }
+  .capstone{
+    display: inline-block;
+    background: rgba(44, 50, 56, 0.8);
+  }
   #projects {
     align-items: center;
     /* position: relative; */
@@ -355,6 +365,7 @@ h3 {
   }
 
   #projectShit {
+    display: block;
     margin-top: -5px;
     max-height: 100%;
     width: auto;
@@ -391,6 +402,10 @@ h3 {
     background: rgba(44, 50, 56, 0.8);
   }
   .shaunPic {
+    display: inline-block;
+    background: rgba(44, 50, 56, 0.8);
+  }
+  .capstone{
     display: inline-block;
     background: rgba(44, 50, 56, 0.8);
   }
