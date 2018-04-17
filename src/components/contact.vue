@@ -61,7 +61,7 @@ button:hover{
 
 }
 .backgroundImg {
-  opacity: 0.2;
+  opacity: 0.6;
   height: 100%;
   width: 100%;
   background-position: center;
@@ -73,7 +73,7 @@ button:hover{
   margin:0 auto;
   padding: 20px;
   border-radius: 24px;
-  background: rgba(191, 191, 191, 0.43);
+  background: rgba(44, 50, 56, 0.8);
   text-align: center;
   position: absolute;
   top: 50%;
@@ -88,9 +88,7 @@ button:hover{
   #contact{
     background-image: url('../assets/pic.jpeg');
   }
-  .backgroundImg{
-    /* display: none; */
-  }
+
   #contactForm{
     background: rgba(44, 50, 56, 0.8);
     width: 350px;

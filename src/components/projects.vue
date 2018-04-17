@@ -23,8 +23,9 @@
   </slide>
   <slide>
     <div class="newGif">
-      <h3>Fridgely</h3>
-      <img class='gif2' src="../assets/fridge.gif" alt="">
+      <h3>Fridge Vision</h3>
+      <img class = 'fridgeGif' src="../assets/fridge.gif" alt="">
+      <!-- <img class='gif2' src="../assets/fridge.gif" alt=""> -->
       <div class="tech">
         <h5>Technologies Used</h5>
         <img class='techPic' src="../assets/react.png" alt="">
@@ -99,8 +100,10 @@
       </div>
     </div>
     <div class="newGif">
-      <h3>Fridgely</h3>
-      <img class='gif2' src="../assets/fridge.gif" alt="">
+      <h3>Fridge Vision</h3>
+      <img class = 'fridgeGif' src="../assets/fridge.gif" alt="">
+
+      <!-- <img class='gif2' src="../assets/fridge.gif" alt=""> -->
       <div class="tech">
         <h5>Technologies Used</h5>
         <img class='techPic' src="../assets/react.png" alt="">
@@ -173,7 +176,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 .VueCarousel-slide {
-  background: rgba(191, 191, 191, 0.43);
+  background: rgba(44, 50, 56, 0.8);
   text-align: center;
 }
 .label {
@@ -198,10 +201,15 @@ h3 {
   height: 300px;
   width: 480px
 }
+.fridgeGif{
+  height: 300px;
+  border-radius: 24px;
+}
+
 
 
 .backgroundImg {
-  opacity: 0.2;
+  opacity: 0.6;
   height: 100vh;
   width: 100%;
   background-position: center;
@@ -216,7 +224,6 @@ h3 {
   border-radius: 24px;
   margin: 10px;
   color: white;
-  /* background: rgba(191, 191, 191, 0.43); */
 }
 
 .newGif {
@@ -225,7 +232,6 @@ h3 {
   border-radius: 24px;
   margin: 10px;
   color: white;
-  /* background: rgba(191, 191, 191, 0.43); */
 }
 .capstone{
   padding-top: 10px;
@@ -240,22 +246,12 @@ h3 {
   border-radius: 24px;
   margin: 10px;
   color: white;
-  /* background: rgba(191, 191, 191, 0.43); */
 }
 
-#projectShit>div {
-  /* flex: 1; */
-  /* min-width: 290px; */
-}
+
 
 #projectShit {
-  /* visibility: hidden; */
   display: none;
-  /* padding: 20px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap; */
 }
 
 .gitLink {
@@ -273,14 +269,6 @@ h3 {
 }
 
 @media only screen and (max-width: 700px) {
-  /* img{
-    display: none;
-    height: 100%;
-    width: auto;
-    background-repeat:no-repeat;
-     background-size: 100% auto;
-
-  } */
   .photoScroll{
     display: none;
   }
@@ -315,11 +303,6 @@ h3 {
   .shoeGif {
     display: inline-block;
     background: rgba(44, 50, 56, 0.8);
-    /* margin-left: 55px;
-    width: 300px;
-    text-align: center;
-    display: inline-block;
-    align-items: center; */
   }
   .gif2 {
     width: 290px;
@@ -347,7 +330,6 @@ h3 {
   }
   #projects {
     align-items: center;
-    /* position: relative; */
   }
 }
 
@@ -377,7 +359,6 @@ h3 {
     margin-top: -5px;
     max-height: 100%;
     width: auto;
-    /* margin-left: -16px; */
     align-items: center;
     overflow-y: auto;
     overflow: scroll;
@@ -388,10 +369,6 @@ h3 {
   .shoeGif {
     display: inline-block;
     background: rgba(44, 50, 56, 0.8);
-    /* width: 300px;
-    text-align: center;
-    display: inline-block;
-    align-items: center; */
   }
   .gif2 {
     width: 290px;

@@ -34,7 +34,7 @@ export default {
     particlesJS('particleJS-container', {
              "particles": {
                "number": {
-                 "value": 310,
+                 "value": 320,
                  "density": {
                    "enable": true,
                    "value_area": 4813.800613956863
@@ -172,15 +172,6 @@ h4{
 .mobilePic{
   display: none;
 }
-/* img {
-  opacity: 0.6;
-  height: 100vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  position: absolute;
-} */
 .textBox{
   margin: 10px;
   text-align: center;
@@ -222,21 +213,6 @@ h4{
     max-height: 100%;
   }
 
-  /* .mobilePic{
-    display: block;
-    height: 100%;
-    width: 130%;
-    background-size: 100% auto;
-
-  } */
-  /* img{
-    display: none;
-    height: 100%;
-    width: auto;
-    background-repeat:no-repeat;
-     background-size: 100% auto;
-
-  } */
   .hero-text{
     height: 350px;
     opacity: 0.9;
@@ -247,13 +223,6 @@ h4{
   }
 }
 @media only screen and (max-width: 1400px) {
-  /* img{
-    display: none;
-    height: 100%;
-    width: auto;
-    background-repeat:no-repeat;
-     background-size: 100% auto;
-  } */
   #particleJS-container{
     max-width: 100%;
     height: 100%;
