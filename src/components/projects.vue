@@ -17,7 +17,7 @@
         <img class='techPic' src="../assets/aws.png" alt="">
         <img class='techPic' src="../assets/cypress.png" alt="">
         <p>Woah....website inception</p><br><p>My personal website, made using Vue.Js, hosted on Amazon S3 with Route 53 and CloudFront</p>
-        <a class='gitLink' href="https://github.com/shaunbseidman/personal-site"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+        <a class='gitLink' href="https://github.com/shaunbseidman/personal-site" target="_blank"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
   </slide>
@@ -39,7 +39,7 @@
         <p>A collaborative group project implementing React Native, Clarafi image recognition and Amazon Web Services S3 image hosting. My role in this project was to create the back-end Express server, create the Knex database as well as help post the images
           taken from the iPhone’s native camera to an S3 bucket. Fridgely was created with the intent to scan an item in your fridge, take a photo and send it off to the image recognition API and then return a list of recipes based on the food item that
           was scanned.</p>
-        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server" target="_blank"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
   </slide>
@@ -57,8 +57,8 @@
         <img class='techPic' src="../assets/node.png" alt="">
         <img class='techPic' src="../assets/boot.png" alt="">
         <p>A fun and simple web app that tracks the retail and resell prices for sneakers. Using the chart.js library, it creates an easy to read comparison chart which shows whether the price has gone up or down from the suggested retail price. </p>
-        <a class='gitLink' href="http://cute-middle.surge.sh/#/"><img class = 'bottomPic' src="../assets/link.png" alt=""></a>
-        <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+        <a class='gitLink' href="http://cute-middle.surge.sh/#/" target="_blank"><img class = 'bottomPic' src="../assets/link.png" alt=""></a>
+        <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower" target="_blank"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
   </slide>
@@ -96,7 +96,7 @@
         <img class='techPic' src="../assets/aws.png" alt="">
         <img class='techPic' src="../assets/cypress.png" alt="">
         <p>Woah....website inception</p><br><p>My personal website, made using Vue.Js, hosted on Amazon S3 with Route 53 and CloudFront</p>
-        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+        <a class='gitLink' href="https://github.com/shaunbseidman/personal-site" target="_blank"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
     <div class="newGif">
@@ -117,7 +117,7 @@
         <p>A collaborative group project implementing React Native, Clarafi image recognition and Amazon Web Services S3 image hosting. My role in this project was to create the back-end Express server, create the Knex database as well as help post the images
           taken from the iPhone’s native camera to an S3 bucket. Fridgely was created with the intent to scan an item in your fridge, take a photo and send it off to the image recognition API and then return a list of recipes based on the food item that
           was scanned.</p>
-        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server" target="_blank"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
     <div class="shoeGif">
@@ -133,8 +133,8 @@
         <img class='techPic' src="../assets/node.png" alt="">
         <img class='techPic' src="../assets/boot.png" alt="">
         <p>A fun and simple web app that tracks the retail and resell prices for sneakers. Using the chart.js library, it creates an easy to read comparison chart which shows whether the price has gone up or down from the suggested retail price. </p>
-        <a class='gitLink' href="http://cute-middle.surge.sh/#/"><img class = 'bottomPic' src="../assets/link.png" alt=""></a>
-        <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+        <a class='gitLink' href="http://cute-middle.surge.sh/#/" target="_blank"><img class = 'bottomPic' src="../assets/link.png" alt=""></a>
+        <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower" target="_blank"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
     <div class="capstone">

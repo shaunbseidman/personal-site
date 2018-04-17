@@ -20,10 +20,10 @@
       <router-link :to="{name: 'contact'}">
         <img class='linkImages' src="./assets/mail.png" alt="">
       </router-link>
-      <a href="http://www.github.com/shaunbseidman"><img class = 'linkImages' id='img2' src="./assets/git2.png" alt="git"></a>
-      <a href="https://www.linkedin.com/in/shaun-seidman/"><img class = 'linkImages' id='img2' src="./assets/linked.png" alt=""></a>
-      <a href="http://www.instagram.com/youth.and.lust"><img class = 'linkImages' id='img2' src="./assets/ig.png" alt=""></a>
-      <a href="http://www.twitter.com/wangchung2nite_"><img class = 'linkImages' id='img2' src="./assets/twitter.png" alt=""></a>
+      <a href="http://www.github.com/shaunbseidman" target="_blank"><img class = 'linkImages' id='img2' src="./assets/git2.png" alt="git"></a>
+      <a href="https://www.linkedin.com/in/shaun-seidman/" target="_blank"><img class = 'linkImages' id='img2' src="./assets/linked.png" alt=""></a>
+      <a href="http://www.instagram.com/youth.and.lust" target="_blank"><img class = 'linkImages' id='img2' src="./assets/ig.png" alt=""></a>
+      <a href="http://www.twitter.com/wangchung2nite_" target="_blank"><img class = 'linkImages' id='img2' src="./assets/twitter.png" alt=""></a>
 
     </div>
   </div>
