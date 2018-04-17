@@ -146,6 +146,7 @@ video {
   width: 100%;
   position: absolute;
 
+
 }
 
 body {
@@ -250,9 +251,10 @@ li:hover {
 
 @media only screen and (max-width: 900px) {
   #app {
-    background-image: url("./assets/pic2.jpeg");
     opacity: 0.6;
     background-position: center;
+    background-image: url('assets/pic2.jpeg');
+
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -288,7 +290,6 @@ li:hover {
     display: none;
   }
   #app {
-    background-image: url("./assets/pic2.jpeg");
     opacity: 0.6;
     background-position: center;
     background-repeat: no-repeat;

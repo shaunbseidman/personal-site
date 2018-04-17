@@ -85,8 +85,11 @@ button:hover{
   font-family: 'Open Sans', sans-serif;
 }
 @media only screen and (max-width: 900px) {
+  #contact{
+    background-image: url('../assets/pic.jpeg');
+  }
   .backgroundImg{
-    display: none;
+    /* display: none; */
   }
   #contactForm{
     background: rgba(44, 50, 56, 0.8);

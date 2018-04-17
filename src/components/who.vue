@@ -64,7 +64,7 @@ p {
   font-size: 19px;
 }
 .backgroundImg {
-  opacity: 0.2;
+  opacity: 0.8;
   height: 100%;
   width: 100%;
   background-position: center;
@@ -87,18 +87,23 @@ p {
   margin: 0 auto;
   padding: 40px;
   border-radius: 24px;
-  background: rgba(191, 191, 191, 0.43);
+  background: rgba(44, 50, 56, 0.8);
+  margin-right: 100px;
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 20%;
+  /* right: -20%; */
+  left: 40%;
+  /* transform: translate(-50%, -50%); */
   color: white;
 }
 
 @media only screen and (max-width: 800px) {
   .backgroundImg {
     display: none;
+  }
+  .fart{
+    background-image: url("../assets/pic.jpeg");
   }
   p{
     font-size: 16px;
@@ -108,13 +113,23 @@ p {
     width: 317px;
   }
   #aboutMe {
-    background: rgba(44, 50, 56, 0.8);
+    padding-top: 10px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: auto;
+    align-items: center;
+    display: inline-block;
+    width: 350px;
+    /* background: rgba(44, 50, 56, 0.8);
     display: inline-grid;
+    left: 50%;
+    top: 50%;
     height:610px;
     width: 350px;
     opacity: 7;
     text-align: center;
-    align-items: center
+    align-items: center */
 
   }
   .resPic {

@@ -273,6 +273,14 @@ h3 {
 }
 
 @media only screen and (max-width: 700px) {
+  /* img{
+    display: none;
+    height: 100%;
+    width: auto;
+    background-repeat:no-repeat;
+     background-size: 100% auto;
+
+  } */
   .photoScroll{
     display: none;
   }
