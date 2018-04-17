@@ -150,9 +150,12 @@ export default {
 #splash{
   height: 100vh;
 }
+.fart{
+  display: none;
+}
 #particleJS-container{
   max-width: 100%;
-  max-height: 100%;
+  height: 100vh;
 }
 body{
   height: 100vh;
@@ -253,7 +256,7 @@ h4{
   } */
   #particleJS-container{
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
   }
   .fart{
     display: none;

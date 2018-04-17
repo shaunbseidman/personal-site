@@ -145,6 +145,8 @@ video {
   font-family: 'Lato', sans-serif;
   width: 100%;
   position: absolute;
+  background-image: none;
+
 
 
 }
