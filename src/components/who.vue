@@ -142,11 +142,9 @@ p {
     display: none;
   }
   .res {
-    /* display: none; */
   }
   .resume {
-    /* height: 830px;
-    width: 480px; */
+
   }
   #aboutMe {
     background: rgba(44, 50, 56, 0.8);

@@ -41,7 +41,7 @@ export default {
                  }
                },
                "color": {
-                 "value": "#f0f7f2"
+                 "value": ["#BD10E0","#B8E986","#50E3C2","#4a9fc9","#FFD300","#E86363", "#36dd8f"]
                },
                "shape": {
                  "type": "circle",
@@ -187,7 +187,7 @@ h4{
   -webkit-border-radius: 200px;
   border-radius: 200px;
   background-color: #C9D4CB;
-  opacity: 0.9;
+  opacity: 0.78;
   filter: alpha(opacity=70);
   font-weight: bold;
   font-family: 'Julius Sans One', sans-serif;
