@@ -34,7 +34,7 @@ export default {
     particlesJS('particleJS-container', {
              "particles": {
                "number": {
-                 "value": 320,
+                 "value": 280,
                  "density": {
                    "enable": true,
                    "value_area": 4813.800613956863
