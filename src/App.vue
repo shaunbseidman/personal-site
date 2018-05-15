@@ -16,7 +16,6 @@
 
     </div>
     <div class="link2shit">
-
       <router-link :to="{name: 'contact'}">
         <img class='linkImages' src="./assets/mail.png" alt="">
       </router-link>

@@ -64,18 +64,17 @@
   </slide>
   <slide>
     <div class="shaunPic">
-      <h3>CAPSTONE...coming soon</h3>
+      <h3>Pay It Forward</h3>
       <!-- <img class='gif2' src="../assets/ss.png" alt="">
       <div class="tech">
         <h5>Technologies Used</h5>
-        <img class='techPic' src="../assets/logo.png" alt="">
+        <img class='techPic' src="../assets/swift.png" alt="">
         <img class='techPic' src="../assets/boot.png" alt="">
         <img class='techPic' src="../assets/js.png" alt="">
         <img class='techPic' src="../assets/css.png" alt="">
         <img class='techPic' src="../assets/node.png" alt="">
         <img class='techPic' src="../assets/aws.png" alt="">
         <img class='techPic' src="../assets/cypress.png" alt="">
-        <p>Woah....website inception</p><br><p>My personal website, made using Vue.Js, hosted on Amazon S3 with Route 53 and CloudFront</p>
         <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div> -->
     </div>
@@ -102,8 +101,6 @@
     <div class="newGif">
       <h3>Fridge Vision</h3>
       <img class = 'fridgeGif' src="../assets/fridge.gif" alt="">
-
-      <!-- <img class='gif2' src="../assets/fridge.gif" alt=""> -->
       <div class="tech">
         <h5>Technologies Used</h5>
         <img class='techPic' src="../assets/react.png" alt="">
@@ -137,21 +134,22 @@
         <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower" target="_blank"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
       </div>
     </div>
-    <div class="capstone">
-      <h3>CAPSTONE...coming soon</h3>
-      <!-- <img class='gif2' src="../assets/ss.png" alt="">
+    <div class="shoeGif">
+      <h3>What's it Worth</h3>
+      <img class='gif' src="../assets/gif2.gif" alt="">
       <div class="tech">
         <h5>Technologies Used</h5>
-        <img class='techPic' src="../assets/logo.png" alt="">
-        <img class='techPic' src="../assets/boot.png" alt="">
+        <img class='techPic' src="../assets/swift.png" alt="">
+        <img class='techPic' src="../assets/cypress.png" alt="">
         <img class='techPic' src="../assets/js.png" alt="">
         <img class='techPic' src="../assets/css.png" alt="">
+        <img class='techPic' src="../assets/post.png" alt="">
         <img class='techPic' src="../assets/node.png" alt="">
-        <img class='techPic' src="../assets/aws.png" alt="">
-        <img class='techPic' src="../assets/cypress.png" alt="">
-        <p>Woah....website inception</p><br><p>My personal website, made using Vue.Js, hosted on Amazon S3 with Route 53 and CloudFront</p>
-        <a class='gitLink' href="https://github.com/DavidNAspesi/fridgely-server"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
-      </div> -->
+        <img class='techPic' src="../assets/boot.png" alt="">
+        <p>A fun and simple web app that tracks the retail and resell prices for sneakers. Using the chart.js library, it creates an easy to read comparison chart which shows whether the price has gone up or down from the suggested retail price. </p>
+        <a class='gitLink' href="http://cute-middle.surge.sh/#/" target="_blank"><img class = 'bottomPic' src="../assets/link.png" alt=""></a>
+        <a class='gitLink' href="https://github.com/shaunbseidman/galvanizetower" target="_blank"><img class = 'bottomPic' src="../assets/git2.png" alt=""></a>
+      </div>
     </div>
   </div>
 

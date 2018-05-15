@@ -27,7 +27,6 @@ export default {
   	this.$nextTick(() => {
     	this.initParticleJS()
     })
-
   },
   methods: {
   initParticleJS () {
